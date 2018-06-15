@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>image/game/game_utils_mj/bu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{795,2},{199,215}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,215}</string>
+			</dict>
+			<key>image/game/game_utils_mj/chi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,65},{199,215}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,215}</string>
+			</dict>
+			<key>image/game/game_utils_mj/gang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{205,65},{199,215}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,215}</string>
+			</dict>
+			<key>image/game/game_utils_mj/guo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{408,65},{199,215}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,215}</string>
+			</dict>
+			<key>image/game/game_utils_mj/hu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{611,221},{199,215}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,215}</string>
+			</dict>
+			<key>image/game/game_utils_mj/peng.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{814,221},{199,215}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{199,215}</string>
+			</dict>
+			<key>image/game/game_utils_mj/point1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{998,2},{10,10}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{10,10}</string>
+			</dict>
+			<key>image/game/game_utils_mj/ui_outline.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{789,59}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{1024,60}</string>
+			</dict>
+			<key>image/game/game_utils_mj/yao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,284},{186,215}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{186,215}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>game_utils_mj2.png</string>
+			<key>realTextureFileName</key>
+			<string>game_utils_mj2.png</string>
+			<key>size</key>
+			<string>{1015,501}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1015</integer>
+			<key>height</key>
+			<integer>501</integer>
+		</dict>
+	</dict>
+</plist>

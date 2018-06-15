@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>image/common2/fangjianliebiao.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{150,169},{144,38}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{145,39}</string>
+			</dict>
+			<key>image/common2/lishizhanji.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{800,166},{145,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{145,39}</string>
+			</dict>
+			<key>image/common2/paijuliushui.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,169},{144,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{145,39}</string>
+			</dict>
+			<key>image/common2/shangcheng.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{902,123},{97,39}}</string>
+				<key>offset</key>
+				<string>{-2,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{145,39}</string>
+			</dict>
+			<key>image/common2/wanfaxuanze.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{356,160},{145,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{145,39}</string>
+			</dict>
+			<key>image/common2/weikaishi.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{356,2},{178,120}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{178,120}</string>
+			</dict>
+			<key>image/common2/yijieshu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{538,2},{178,120}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{178,120}</string>
+			</dict>
+			<key>image/common2/youxizhong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{720,2},{178,120}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{178,120}</string>
+			</dict>
+			<key>image/common2/zhanjihuifang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{505,169},{145,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{145,39}</string>
+			</dict>
+			<key>image/common2/tuoguanzhong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{654,169},{121,36}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{121,36}</string>
+			</dict>
+			<key>image/common2/txt_agreement.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{356,126},{256,30}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{256,30}</string>
+			</dict>
+			<key>image/common2/videoflag.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,2},{350,163}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{350,163}</string>
+			</dict>
+			<key>image/common2/zhunbeizhong.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{902,2},{88,117}}</string>
+				<key>offset</key>
+				<string>{-2,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{128,128}</string>
+			</dict>
+			<key>image/common2/jinbichangwanfa.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{616,126},{180,39}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{180,39}</string>
+			</dict>
+			<key>image/common2/changshamajiang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{298,203},{144,37}}</string>
+				<key>offset</key>
+				<string>{1,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{145,39}</string>
+			</dict>
+			<key>image/common2/hongzhongmajiang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{150,211},{144,37}}</string>
+				<key>offset</key>
+				<string>{1,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{145,39}</string>
+			</dict>
+			<key>image/common2/zhuanzhuanmajiang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{2,212},{144,37}}</string>
+				<key>offset</key>
+				<string>{1,-1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{145,39}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>common2.png</string>
+			<key>realTextureFileName</key>
+			<string>common2.png</string>
+			<key>size</key>
+			<string>{1001,251}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1001</integer>
+			<key>height</key>
+			<integer>251</integer>
+		</dict>
+	</dict>
+</plist>
