@@ -1,0 +1,1206 @@
+2018-06-15T06:41:31.163Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-15T06:41:31.168Z - normal: checking language setting...
+2018-06-15T06:41:31.168Z - normal: Language: zh
+2018-06-15T06:41:34.179Z - success: protocol editor-framework registered
+2018-06-15T06:41:34.179Z - success: protocol app registered
+2018-06-15T06:41:34.179Z - success: protocol theme registered
+2018-06-15T06:41:34.180Z - success: protocol packages registered
+2018-06-15T06:41:34.180Z - success: protocol unpack registerred
+2018-06-15T06:41:34.180Z - success: protocol disable-commonjs registerred
+2018-06-15T06:41:34.795Z - normal: connected!
+2018-06-15T06:41:34.797Z - normal: Check project /Users/yajing/AtomFrame
+2018-06-15T06:41:34.799Z - normal: Initializing Cocos2d
+2018-06-15T06:41:35.403Z - normal: Initializing Asset Database
+2018-06-15T06:41:35.504Z - success: protocol uuid registerred
+2018-06-15T06:41:35.505Z - success: protocol db registerred
+2018-06-15T06:41:35.505Z - success: protocol thumbnail registerred
+2018-06-15T06:41:35.505Z - normal: Loading editor/builtin packages
+2018-06-15T06:41:35.617Z - success: anysdk loaded
+2018-06-15T06:41:35.810Z - success: assets loaded
+2018-06-15T06:41:35.815Z - success: builder loaded
+2018-06-15T06:41:35.818Z - success: cocos-analytics loaded
+2018-06-15T06:41:35.856Z - success: console loaded
+2018-06-15T06:41:35.864Z - success: hierarchy loaded
+2018-06-15T06:41:35.871Z - success: inspector loaded
+2018-06-15T06:41:35.873Z - success: keystore loaded
+2018-06-15T06:41:35.879Z - success: node-library loaded
+2018-06-15T06:41:35.882Z - success: package-asset loaded
+2018-06-15T06:41:35.885Z - success: preferences loaded
+2018-06-15T06:41:35.890Z - success: project-exporter loaded
+2018-06-15T06:41:35.919Z - success: project-importer loaded
+2018-06-15T06:41:35.924Z - success: project-settings loaded
+2018-06-15T06:41:35.947Z - success: ui-kit loaded
+2018-06-15T06:41:35.954Z - success: ui-grid loaded
+2018-06-15T06:41:35.960Z - success: scene loaded
+2018-06-15T06:41:35.962Z - success: sprite-editor loaded
+2018-06-15T06:41:35.968Z - success: store loaded
+2018-06-15T06:41:35.977Z - success: timeline loaded
+2018-06-15T06:41:35.977Z - normal: Loading builtin packages
+2018-06-15T06:41:35.992Z - success: asset-db-debugger loaded
+2018-06-15T06:41:35.993Z - success: color-picker loaded
+2018-06-15T06:41:35.999Z - success: package-manager loaded
+2018-06-15T06:41:36.014Z - success: sdkbox loaded
+2018-06-15T06:41:36.022Z - success: tester loaded
+2018-06-15T06:41:36.033Z - success: ui-kit-preview-extra loaded
+2018-06-15T06:41:36.039Z - success: ui-kit-preview loaded
+2018-06-15T06:41:36.045Z - success: ui-tree loaded
+2018-06-15T06:41:38.252Z - normal: Initializing project /Users/yajing/AtomFrame
+2018-06-15T06:41:38.293Z - normal: Loading packages
+2018-06-15T06:41:38.298Z - normal: Watching packages
+2018-06-15T06:41:38.336Z - normal: Run Application
+2018-06-15T06:41:48.976Z - success: preview server running at http://localhost:7456
+2018-06-15T06:42:11.079Z - normal: 1.8.1
+2018-06-15T06:42:36.740Z - normal: Simulator: WORKAREA WIDTH 1860.00, HEIGHT 1035.00
+2018-06-15T06:42:36.741Z - normal: Simulator: FRAME SCALE = 1.00
+2018-06-15T06:42:36.960Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-06-15T06:42:37.127Z - normal: Simulator: 
+2018-06-15T06:42:37.128Z - normal: Simulator: {
+2018-06-15T06:42:37.129Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-06-15T06:42:37.129Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-06-15T06:42:37.169Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-06-15T06:42:37.170Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-06-15T06:42:37.170Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-06-15T06:42:37.170Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 4000 OpenGL Engine
+2018-06-15T06:42:37.171Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-06-15T06:42:37.171Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-06-15T06:42:37.172Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-06-15T06:42:37.174Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-06-15T06:42:37.175Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-06-15T06:42:37.175Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-06-15T06:42:37.178Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-06-15T06:42:37.180Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-06-15T06:42:37.181Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-06-15T06:42:37.181Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.25.19
+2018-06-15T06:42:37.181Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-06-15T06:42:37.182Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-06-15T06:42:37.182Z - normal: Simulator: }
+2018-06-15T06:42:37.182Z - normal: Simulator: 
+2018-06-15T06:42:37.182Z - normal: Simulator: 
+2018-06-15T06:42:37.182Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-06-15T06:42:37.184Z - normal: Simulator: Project Config:
+2018-06-15T06:42:37.185Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-06-15T06:42:37.185Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-06-15T06:42:37.186Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-06-15T06:42:37.186Z - normal: Simulator:     frame size: 960 x 640
+2018-06-15T06:42:37.186Z - normal: Simulator:     frame scale: 1.00
+2018-06-15T06:42:37.187Z - normal: Simulator:     show console: NO
+2018-06-15T06:42:37.187Z - normal: Simulator:     write debug log: NO ()
+2018-06-15T06:42:37.187Z - normal: Simulator:     listen: 
+2018-06-15T06:42:37.187Z - normal: Simulator:     debugger: none
+2018-06-15T06:42:37.188Z - normal: Simulator:     add searching path:
+2018-06-15T06:42:37.202Z - normal: Simulator: ------------------------------------------------
+2018-06-15T06:42:37.203Z - normal: Simulator: LOAD Js FILE: main.js
+2018-06-15T06:42:37.203Z - normal: Simulator: ------------------------------------------------
+2018-06-15T06:42:37.204Z - normal: Simulator: Initializing JavaScriptCore 
+2018-06-15T06:42:38.321Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-06-15T06:42:39.399Z - normal: Simulator: iShow!
+2018-06-15T06:42:40.733Z - normal: Simulator: JS: InitScene: 5.213000000000193ms
+2018-06-15T06:42:40.733Z - normal: Simulator: JS: AutoRelease: 0.13400000000001455ms
+2018-06-15T06:42:40.734Z - normal: Simulator: JS: Destroy: 0.068000000000211ms
+2018-06-15T06:42:40.734Z - normal: Simulator: JS: AttachPersist: 0.008999999999559805ms
+2018-06-15T06:42:40.803Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.907Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.910Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.912Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.914Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.916Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.919Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.922Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.924Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.928Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.930Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.933Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.936Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.945Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.946Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.946Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.947Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.950Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.952Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.953Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.963Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:42:40.964Z - normal: Simulator: JS: !---- AtomFrame ----!
+2018-06-15T06:42:40.966Z - normal: Simulator: JS: -new:timerMgr
+2018-06-15T06:42:40.966Z - normal: Simulator: JS: -new:md5
+2018-06-15T06:42:40.967Z - normal: Simulator: JS: -new:gameState
+2018-06-15T06:42:40.967Z - normal: Simulator: JS: -new:gameConfMgr
+2018-06-15T06:42:40.967Z - normal: Simulator: JS: -new:eventMgr
+2018-06-15T06:42:40.967Z - normal: Simulator: JS: -new:msgMgr
+2018-06-15T06:42:40.968Z - normal: Simulator: JS: -new:spriteMgr
+2018-06-15T06:42:40.968Z - normal: Simulator: JS: -new:audioMgr
+2018-06-15T06:42:40.968Z - normal: Simulator: JS: -new:prefabMgr
+2018-06-15T06:42:40.969Z - normal: Simulator: JS: -new:effectMgr
+2018-06-15T06:42:40.971Z - normal: Simulator: JS: -new:animateMgr
+2018-06-15T06:42:40.972Z - normal: Simulator: JS: -new:resMgr
+2018-06-15T06:42:40.983Z - normal: Simulator: JS: -new:UIMgr
+2018-06-15T06:42:40.983Z - normal: Simulator: JS: -new:comFunMgr
+2018-06-15T06:42:40.983Z - normal: Simulator: JS: -new:gameDataMgr
+2018-06-15T06:42:40.984Z - normal: Simulator: JS: -new:gameNetMgr
+2018-06-15T06:42:40.984Z - normal: Simulator: JS: -new:socketMgr
+2018-06-15T06:42:40.984Z - normal: Simulator: JS: -new:hotUpdateMgr
+2018-06-15T06:42:40.985Z - normal: Simulator: JS: gameConfMgr version 0.0.0
+2018-06-15T06:42:40.985Z - normal: Simulator: JS: gameConfMgr gamemode undefined
+2018-06-15T06:42:40.985Z - normal: Simulator: JS: gameConfMgr version 1.2.0
+2018-06-15T06:42:40.986Z - normal: Simulator: JS: gameConfMgr gamemode game
+2018-06-15T06:42:41.109Z - normal: Simulator: ERROR: TypeError: undefined is not an object (evaluating 'cc.Atom.memory.showMemoryStatus'), location: assets/Script/HelloWorld.js:44:23
+2018-06-15T06:42:41.110Z - normal: Simulator: STACK:
+2018-06-15T06:42:41.110Z - normal: Simulator: onLoad@assets/Script/HelloWorld.js:44:23
+2018-06-15T06:42:41.110Z - normal: Simulator: anonymous
+2018-06-15T06:42:41.110Z - normal: Simulator: invoke@src/jsb_polyfill.js:7949:23
+2018-06-15T06:42:41.111Z - normal: Simulator: activateNode@src/jsb_polyfill.js:16992:31
+2018-06-15T06:42:41.111Z - normal: Simulator: _activate@src/jsb_polyfill.js:6597:50
+2018-06-15T06:42:41.111Z - normal: Simulator: runSceneImmediate@src/jsb_polyfill.js:31785:28
+2018-06-15T06:42:41.111Z - normal: Simulator: main.js:53:54
+2018-06-15T06:42:41.112Z - normal: Simulator: src/jsb_polyfill.js:19353:33
+2018-06-15T06:42:41.112Z - normal: Simulator: src/jsb_polyfill.js:15268:38
+2018-06-15T06:42:41.112Z - normal: Simulator: src/jsb_polyfill.js:22902:21
+2018-06-15T06:42:41.113Z - normal: Simulator: onceWrapper@src/jsb_polyfill.js:14412:26
+2018-06-15T06:42:41.113Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-06-15T06:42:41.113Z - normal: Simulator: emit@src/jsb_polyfill.js:14439:117
+2018-06-15T06:42:41.113Z - normal: Simulator: callback@src/jsb_polyfill.js:31919:27
+2018-06-15T06:44:29.048Z - normal: Simulator: WORKAREA WIDTH 1860.00, HEIGHT 1035.00
+2018-06-15T06:44:29.075Z - normal: Simulator: FRAME SCALE = 1.00
+2018-06-15T06:44:29.088Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-06-15T06:44:29.309Z - normal: Simulator: 
+2018-06-15T06:44:29.310Z - normal: Simulator: {
+2018-06-15T06:44:29.311Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-06-15T06:44:29.311Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-06-15T06:44:29.311Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-06-15T06:44:29.348Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-06-15T06:44:29.348Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-06-15T06:44:29.349Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 4000 OpenGL Engine
+2018-06-15T06:44:29.349Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-06-15T06:44:29.349Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-06-15T06:44:29.349Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-06-15T06:44:29.350Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-06-15T06:44:29.350Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-06-15T06:44:29.350Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-06-15T06:44:29.351Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-06-15T06:44:29.351Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-06-15T06:44:29.351Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-06-15T06:44:29.352Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.25.19
+2018-06-15T06:44:29.352Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-06-15T06:44:29.352Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-06-15T06:44:29.353Z - normal: Simulator: }
+2018-06-15T06:44:29.353Z - normal: Simulator: 
+2018-06-15T06:44:29.353Z - normal: Simulator: 
+2018-06-15T06:44:29.353Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-06-15T06:44:29.359Z - normal: Simulator: Project Config:
+2018-06-15T06:44:29.360Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-06-15T06:44:29.360Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-06-15T06:44:29.361Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-06-15T06:44:29.361Z - normal: Simulator:     frame size: 960 x 640
+2018-06-15T06:44:29.361Z - normal: Simulator:     frame scale: 1.00
+2018-06-15T06:44:29.362Z - normal: Simulator:     show console: NO
+2018-06-15T06:44:29.362Z - normal: Simulator:     write debug log: NO ()
+2018-06-15T06:44:29.362Z - normal: Simulator:     listen: 
+2018-06-15T06:44:29.363Z - normal: Simulator:     debugger: none
+2018-06-15T06:44:29.364Z - normal: Simulator:     add searching path:
+2018-06-15T06:44:29.364Z - normal: Simulator: 
+2018-06-15T06:44:29.364Z - normal: Simulator: 
+2018-06-15T06:44:29.364Z - normal: Simulator: 
+2018-06-15T06:44:29.365Z - normal: Simulator: ------------------------------------------------
+2018-06-15T06:44:29.365Z - normal: Simulator: LOAD Js FILE: main.js
+2018-06-15T06:44:29.365Z - normal: Simulator: ------------------------------------------------
+2018-06-15T06:44:29.365Z - normal: Simulator: Initializing JavaScriptCore 
+2018-06-15T06:44:29.478Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-06-15T06:44:29.858Z - normal: Simulator: iShow!
+2018-06-15T06:44:30.340Z - normal: Simulator: JS: InitScene: 5.168000000000006ms
+2018-06-15T06:44:30.341Z - normal: Simulator: JS: AutoRelease: 0.2380000000000564ms
+2018-06-15T06:44:30.342Z - normal: Simulator: JS: Destroy: 0.1209999999999809ms
+2018-06-15T06:44:30.342Z - normal: Simulator: JS: AttachPersist: 0.008000000000038199ms
+2018-06-15T06:44:30.366Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.417Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.420Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.423Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.424Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.426Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.429Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.432Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.434Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.438Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.442Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.443Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.447Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.449Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.451Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.456Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.456Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.459Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.462Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.463Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.465Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:44:30.466Z - normal: Simulator: JS: !---- AtomFrame ----!
+2018-06-15T06:44:30.467Z - normal: Simulator: JS: -new:timerMgr
+2018-06-15T06:44:30.468Z - normal: Simulator: JS: -new:md5
+2018-06-15T06:44:30.470Z - normal: Simulator: JS: -new:gameState
+2018-06-15T06:44:30.471Z - normal: Simulator: JS: -new:gameConfMgr
+2018-06-15T06:44:30.481Z - normal: Simulator: JS: -new:eventMgr
+2018-06-15T06:44:30.481Z - normal: Simulator: JS: -new:msgMgr
+2018-06-15T06:44:30.482Z - normal: Simulator: JS: -new:spriteMgr
+2018-06-15T06:44:30.482Z - normal: Simulator: JS: -new:audioMgr
+2018-06-15T06:44:30.483Z - normal: Simulator: JS: -new:prefabMgr
+2018-06-15T06:44:30.483Z - normal: Simulator: JS: -new:effectMgr
+2018-06-15T06:44:30.483Z - normal: Simulator: JS: -new:animateMgr
+2018-06-15T06:44:30.486Z - normal: Simulator: JS: -new:resMgr
+2018-06-15T06:44:30.489Z - normal: Simulator: JS: -new:UIMgr
+2018-06-15T06:44:30.489Z - normal: Simulator: JS: -new:comFunMgr
+2018-06-15T06:44:30.490Z - normal: Simulator: JS: -new:gameDataMgr
+2018-06-15T06:44:30.490Z - normal: Simulator: JS: -new:gameNetMgr
+2018-06-15T06:44:30.491Z - normal: Simulator: JS: -new:socketMgr
+2018-06-15T06:44:30.492Z - normal: Simulator: JS: -new:hotUpdateMgr
+2018-06-15T06:44:30.492Z - normal: Simulator: JS: gameConfMgr version 0.0.0
+2018-06-15T06:44:30.492Z - normal: Simulator: JS: gameConfMgr gamemode undefined
+2018-06-15T06:44:30.493Z - normal: Simulator: JS: gameConfMgr version 1.2.0
+2018-06-15T06:44:30.493Z - normal: Simulator: JS: gameConfMgr gamemode game
+2018-06-15T06:44:30.494Z - normal: Simulator: JS: LOAD ---  this is btnController Object
+2018-06-15T06:44:30.533Z - normal: Simulator: JS: Activate: 193.88099999999997ms
+2018-06-15T06:44:30.650Z - normal: Simulator: JS:  loadres err !!
+2018-06-15T06:44:30.651Z - normal: Simulator: JS: [ERROR]: Asset in "resources/prefabs/spNode" does not exist.
+2018-06-15T06:44:32.861Z - normal: Simulator: In the constructor of HttpClient!
+2018-06-15T06:44:35.688Z - normal: Simulator: Response failed, error buffer: 找不到使用指定主机名的服务器。
+2018-06-15T06:44:44.926Z - normal: Simulator: JS: this is btnController Object  ---- task1
+2018-06-15T06:44:44.927Z - normal: Simulator: JS: this is btnController Object  ---- task3
+2018-06-15T06:44:44.927Z - normal: Simulator: JS: this is btnController Object  ---- task5
+2018-06-15T06:44:44.927Z - normal: Simulator: JS: this is btnController Object  ---- task7
+2018-06-15T06:44:45.308Z - normal: Simulator: JS: this is btnController Object  ---- task2
+2018-06-15T06:44:45.309Z - normal: Simulator: JS: remove task :  task2
+2018-06-15T06:44:45.309Z - normal: Simulator: JS: this is btnController Object  ---- task4
+2018-06-15T06:44:45.310Z - normal: Simulator: JS: remove task :  task4
+2018-06-15T06:44:45.310Z - normal: Simulator: JS: this is btnController Object  ---- task6
+2018-06-15T06:44:45.310Z - normal: Simulator: JS: remove task :  task6
+2018-06-15T06:44:45.331Z - normal: Simulator: JS:  !!! task already exist : task1
+2018-06-15T06:44:45.331Z - normal: Simulator: JS:  !!! task already exist : task3
+2018-06-15T06:44:45.332Z - normal: Simulator: JS:  !!! task already exist : task5
+2018-06-15T06:44:45.332Z - normal: Simulator: JS:  !!! task already exist : task7
+2018-06-15T06:44:45.925Z - normal: Simulator: JS: this is btnController Object  ---- task1
+2018-06-15T06:44:45.926Z - normal: Simulator: JS: this is btnController Object  ---- task3
+2018-06-15T06:44:45.926Z - normal: Simulator: JS: this is btnController Object  ---- task5
+2018-06-15T06:44:45.926Z - normal: Simulator: JS: this is btnController Object  ---- task7
+2018-06-15T06:44:48.492Z - normal: Simulator: JS: spNode  do not loaded , load the prefab resource frist !!!
+2018-06-15T06:44:48.542Z - normal: Simulator: ERROR: TypeError: undefined is not an object (evaluating 'node.parent = cc.director.getScene()'), location: assets/Script/btnController.js:110:17
+2018-06-15T06:44:48.542Z - normal: Simulator: STACK:
+2018-06-15T06:44:48.543Z - normal: Simulator: onBtnCreateNode@assets/Script/btnController.js:110:17
+2018-06-15T06:44:48.543Z - normal: Simulator: emit@src/jsb_polyfill.js:9200:24
+2018-06-15T06:44:48.544Z - normal: Simulator: emitEvents@src/jsb_polyfill.js:9185:25
+2018-06-15T06:44:48.544Z - normal: Simulator: _onTouchEnded@src/jsb_polyfill.js:8769:49
+2018-06-15T06:44:48.544Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-06-15T06:44:48.545Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-06-15T06:44:48.545Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-06-15T06:44:48.545Z - normal: Simulator: _touchEndHandler@src/jsb_polyfill.js:5532:27
+2018-06-15T06:44:48.546Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-06-15T06:44:48.546Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-06-15T06:44:48.714Z - normal: Simulator: JS: spNode  do not loaded , load the prefab resource frist !!!
+2018-06-15T06:44:48.731Z - normal: Simulator: ERROR: TypeError: undefined is not an object (evaluating 'node.parent = cc.director.getScene()'), location: assets/Script/btnController.js:110:17
+2018-06-15T06:44:48.732Z - normal: Simulator: STACK:
+2018-06-15T06:44:48.732Z - normal: Simulator: onBtnCreateNode@assets/Script/btnController.js:110:17
+2018-06-15T06:44:48.732Z - normal: Simulator: emit@src/jsb_polyfill.js:9200:24
+2018-06-15T06:44:48.733Z - normal: Simulator: emitEvents@src/jsb_polyfill.js:9185:25
+2018-06-15T06:44:48.733Z - normal: Simulator: _onTouchEnded@src/jsb_polyfill.js:8769:49
+2018-06-15T06:44:48.733Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-06-15T06:44:48.734Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-06-15T06:44:48.734Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-06-15T06:44:48.734Z - normal: Simulator: _touchEndHandler@src/jsb_polyfill.js:5532:27
+2018-06-15T06:44:48.735Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-06-15T06:44:48.735Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-06-15T06:45:08.359Z - normal: Simulator: JS: gameConfMgr version 1.2.0
+2018-06-15T06:45:08.360Z - normal: Simulator: JS: gameConfMgr gamemode game
+2018-06-15T06:45:08.360Z - normal: Simulator: JS: gameDataMgr HP_NUM 1000
+2018-06-15T06:45:08.360Z - normal: Simulator: JS: gameDataMgr MP_NUM 2000
+2018-06-15T06:45:09.124Z - normal: Simulator: JS: gameConfMgr version 1.2.0
+2018-06-15T06:45:09.124Z - normal: Simulator: JS: gameConfMgr gamemode game
+2018-06-15T06:45:09.125Z - normal: Simulator: JS: gameDataMgr HP_NUM 1000
+2018-06-15T06:45:09.125Z - normal: Simulator: JS: gameDataMgr MP_NUM 2000
+2018-06-15T06:45:09.308Z - normal: Simulator: JS: gameConfMgr version 1.2.0
+2018-06-15T06:45:09.309Z - normal: Simulator: JS: gameConfMgr gamemode game
+2018-06-15T06:45:09.309Z - normal: Simulator: JS: gameDataMgr HP_NUM 1000
+2018-06-15T06:45:09.309Z - normal: Simulator: JS: gameDataMgr MP_NUM 2000
+2018-06-15T06:45:10.559Z - normal: Simulator: XMLHttpRequest_finalize, 0x7fc7d6867620 ... 
+2018-06-15T06:45:10.560Z - normal: Simulator: XMLHttpRequest_finalize, 0x7fc7d692ac40 ... 
+2018-06-15T06:45:20.807Z - normal: Simulator: JS: _event null :  _onHW1
+2018-06-15T06:45:26.942Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:27.024Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:27.026Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:27.026Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:27.027Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:27.027Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:27.028Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:27.029Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:27.030Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:27.030Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:27.030Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:27.031Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:27.032Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:27.032Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:27.033Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:27.071Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:27.072Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:27.072Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:27.072Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:27.182Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:27.185Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:27.185Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:27.186Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:27.187Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:27.188Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:27.190Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:27.190Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:27.192Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:27.192Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:27.193Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:27.193Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:27.193Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:27.194Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:27.194Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:27.195Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:27.196Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:27.196Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:27.198Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:27.380Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:27.382Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:27.382Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:27.383Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:27.384Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:27.384Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:27.385Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:27.385Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:27.385Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:27.385Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:27.386Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:27.386Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:27.386Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:27.386Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:27.386Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:27.387Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:27.387Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:27.387Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:27.387Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:28.092Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:28.095Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:28.095Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:28.097Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:28.097Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:28.098Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:28.098Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:28.098Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:28.098Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:28.099Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:28.099Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:28.099Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:28.099Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:28.099Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:28.100Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:28.100Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:28.100Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:28.101Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:28.101Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:28.508Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:28.510Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:28.510Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:28.511Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:28.512Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:28.512Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:28.512Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:28.513Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:28.513Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:28.513Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:28.514Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:28.514Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:28.514Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:28.514Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:28.515Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:28.515Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:28.515Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:28.515Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:28.515Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:29.018Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:29.019Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:29.020Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:29.021Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:29.021Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:29.023Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:29.023Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:29.024Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:29.024Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:29.025Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:29.115Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:29.118Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:29.119Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:29.119Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:29.120Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:29.120Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:29.121Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:29.121Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:29.121Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:29.121Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:29.122Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:29.122Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:29.123Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:29.123Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:29.123Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:29.123Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:29.124Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:29.124Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:29.124Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:29.131Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:29.132Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:29.366Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:29.368Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:29.368Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:29.369Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:29.370Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:29.370Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:29.370Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:29.371Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:29.371Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:29.371Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:29.372Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:29.372Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:29.373Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:29.373Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:29.373Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:29.374Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:29.374Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:29.374Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:29.374Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:29.384Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:29.385Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:29.565Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:29.567Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:29.568Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:29.568Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:29.569Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:29.569Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:29.570Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:29.570Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:29.571Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:29.571Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:29.571Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:29.571Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:29.572Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:29.573Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:29.573Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:29.573Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:29.574Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:29.574Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:29.574Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:29.581Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:29.582Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:29.747Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:29.750Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:29.751Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:29.751Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:29.752Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:29.752Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:29.752Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:29.753Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:29.753Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:29.753Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:29.754Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:29.754Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:29.754Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:29.755Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:29.755Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:29.756Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:29.756Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:29.756Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:29.757Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:29.766Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:29.767Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:30.462Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:30.464Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:30.465Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:30.465Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:30.466Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:30.466Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:30.467Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:30.467Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:30.467Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:30.467Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:30.468Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:30.468Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:30.468Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:30.469Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:30.469Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:30.469Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:30.476Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:30.477Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:30.477Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:30.488Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:30.488Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:30.958Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:30.960Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:30.960Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:30.961Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:30.962Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:30.963Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:30.963Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:30.963Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:30.963Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:30.964Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:30.964Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:30.965Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:30.965Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:30.965Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:30.965Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:30.965Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:30.966Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:30.966Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:30.966Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:30.982Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:30.983Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:33.342Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:33.344Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:33.345Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:33.348Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:33.348Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:33.349Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:33.349Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:33.349Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:33.350Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:33.350Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:33.350Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:33.350Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:33.350Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:33.351Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:33.351Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:33.351Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:33.351Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:33.351Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:33.352Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:33.364Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:33.365Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:33.559Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:33.560Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:33.561Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:33.562Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:33.563Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:33.564Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:33.564Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:33.564Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:33.565Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:33.565Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:33.565Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:33.566Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:33.566Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:33.566Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:33.566Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:33.567Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:33.567Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:33.567Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:33.567Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:33.583Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:33.583Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:33.759Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:33.762Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:33.763Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:33.763Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:33.764Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:33.764Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:33.764Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:33.765Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:33.765Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:33.765Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:33.766Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:33.766Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:33.766Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:33.767Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:33.767Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:33.767Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:33.768Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:33.768Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:33.768Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:33.782Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:33.782Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:35.674Z - normal: Simulator: JS: _event null :  _onHW1
+2018-06-15T06:45:39.107Z - normal: Simulator: WORKAREA WIDTH 1865.00, HEIGHT 1035.00
+2018-06-15T06:45:39.108Z - normal: Simulator: FRAME SCALE = 1.00
+2018-06-15T06:45:39.113Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-06-15T06:45:39.249Z - normal: Simulator: 
+2018-06-15T06:45:39.250Z - normal: Simulator: {
+2018-06-15T06:45:39.250Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-06-15T06:45:39.251Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-06-15T06:45:39.251Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-06-15T06:45:39.251Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-06-15T06:45:39.252Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-06-15T06:45:39.252Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 4000 OpenGL Engine
+2018-06-15T06:45:39.252Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-06-15T06:45:39.253Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-06-15T06:45:39.254Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-06-15T06:45:39.254Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-06-15T06:45:39.254Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-06-15T06:45:39.255Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-06-15T06:45:39.255Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-06-15T06:45:39.255Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-06-15T06:45:39.255Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-06-15T06:45:39.256Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.25.19
+2018-06-15T06:45:39.256Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-06-15T06:45:39.256Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-06-15T06:45:39.257Z - normal: Simulator: }
+2018-06-15T06:45:39.257Z - normal: Simulator: 
+2018-06-15T06:45:39.257Z - normal: Simulator: 
+2018-06-15T06:45:39.259Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-06-15T06:45:39.260Z - normal: Simulator: Project Config:
+2018-06-15T06:45:39.260Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-06-15T06:45:39.260Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-06-15T06:45:39.261Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-06-15T06:45:39.261Z - normal: Simulator:     frame size: 960 x 640
+2018-06-15T06:45:39.261Z - normal: Simulator:     frame scale: 1.00
+2018-06-15T06:45:39.262Z - normal: Simulator:     show console: NO
+2018-06-15T06:45:39.262Z - normal: Simulator:     write debug log: NO ()
+2018-06-15T06:45:39.262Z - normal: Simulator:     listen: 
+2018-06-15T06:45:39.262Z - normal: Simulator:     debugger: none
+2018-06-15T06:45:39.263Z - normal: Simulator:     add searching path:
+2018-06-15T06:45:39.269Z - normal: Simulator: ------------------------------------------------
+2018-06-15T06:45:39.269Z - normal: Simulator: LOAD Js FILE: main.js
+2018-06-15T06:45:39.270Z - normal: Simulator: ------------------------------------------------
+2018-06-15T06:45:39.270Z - normal: Simulator: Initializing JavaScriptCore 
+2018-06-15T06:45:39.338Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-06-15T06:45:39.768Z - normal: Simulator: iShow!
+2018-06-15T06:45:40.124Z - normal: Simulator: JS: InitScene: 6.878999999999905ms
+2018-06-15T06:45:40.125Z - normal: Simulator: JS: AutoRelease: 0.18799999999998818ms
+2018-06-15T06:45:40.125Z - normal: Simulator: JS: Destroy: 0.09900000000004638ms
+2018-06-15T06:45:40.125Z - normal: Simulator: JS: AttachPersist: 0.009999999999990905ms
+2018-06-15T06:45:40.150Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.212Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.215Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.217Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.219Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.227Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.227Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.228Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.231Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.234Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.236Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.246Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.247Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.247Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.249Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.251Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.256Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.268Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.268Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.270Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.270Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:45:40.270Z - normal: Simulator: JS: !---- AtomFrame ----!
+2018-06-15T06:45:40.271Z - normal: Simulator: JS: -new:timerMgr
+2018-06-15T06:45:40.273Z - normal: Simulator: JS: -new:md5
+2018-06-15T06:45:40.273Z - normal: Simulator: JS: -new:gameState
+2018-06-15T06:45:40.274Z - normal: Simulator: JS: -new:gameConfMgr
+2018-06-15T06:45:40.274Z - normal: Simulator: JS: -new:eventMgr
+2018-06-15T06:45:40.275Z - normal: Simulator: JS: -new:msgMgr
+2018-06-15T06:45:40.275Z - normal: Simulator: JS: -new:spriteMgr
+2018-06-15T06:45:40.276Z - normal: Simulator: JS: -new:audioMgr
+2018-06-15T06:45:40.276Z - normal: Simulator: JS: -new:prefabMgr
+2018-06-15T06:45:40.277Z - normal: Simulator: JS: -new:effectMgr
+2018-06-15T06:45:40.279Z - normal: Simulator: JS: -new:animateMgr
+2018-06-15T06:45:40.281Z - normal: Simulator: JS: -new:resMgr
+2018-06-15T06:45:40.281Z - normal: Simulator: JS: -new:UIMgr
+2018-06-15T06:45:40.281Z - normal: Simulator: JS: -new:comFunMgr
+2018-06-15T06:45:40.298Z - normal: Simulator: JS: -new:gameDataMgr
+2018-06-15T06:45:40.299Z - normal: Simulator: JS: -new:gameNetMgr
+2018-06-15T06:45:40.299Z - normal: Simulator: JS: -new:socketMgr
+2018-06-15T06:45:40.301Z - normal: Simulator: JS: -new:hotUpdateMgr
+2018-06-15T06:45:40.301Z - normal: Simulator: JS: gameConfMgr version 0.0.0
+2018-06-15T06:45:40.302Z - normal: Simulator: JS: gameConfMgr gamemode undefined
+2018-06-15T06:45:40.302Z - normal: Simulator: JS: gameConfMgr version 1.2.0
+2018-06-15T06:45:40.302Z - normal: Simulator: JS: gameConfMgr gamemode game
+2018-06-15T06:45:40.303Z - normal: Simulator: JS: LOAD ---  this is btnController Object
+2018-06-15T06:45:40.303Z - normal: Simulator: JS: Activate: 165.33000000000004ms
+2018-06-15T06:45:40.341Z - normal: Simulator: JS:  loadres err !!
+2018-06-15T06:45:40.341Z - normal: Simulator: JS: [ERROR]: Asset in "resources/prefabs/spNode" does not exist.
+2018-06-15T06:45:43.276Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:43.302Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:43.303Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:43.303Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:43.303Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:43.304Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:43.304Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:43.305Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:43.305Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:43.305Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:43.306Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:43.306Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:43.306Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:43.307Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:43.307Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:43.340Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:43.341Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:43.342Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:43.342Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:43.381Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:43.382Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:45.559Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:45.561Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:45.562Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:45.562Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:45.563Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:45.563Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:45.564Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:45.564Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:45.564Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:45.564Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:45.565Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:45.565Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:45.565Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:45.565Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:45.565Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:45.565Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:45.566Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:45.566Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:45.566Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:45.582Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:45.582Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:46.024Z - normal: Simulator: JS: total res =  9
+2018-06-15T06:45:46.026Z - normal: Simulator: JS: --AnimationClip : ani/ani1
+2018-06-15T06:45:46.028Z - normal: Simulator: JS:  资源加载进度 ：  1 9
+2018-06-15T06:45:46.028Z - normal: Simulator: JS: --AnimationClip : ani/ani2
+2018-06-15T06:45:46.029Z - normal: Simulator: JS:  资源加载进度 ：  2 9
+2018-06-15T06:45:46.029Z - normal: Simulator: JS: --Obj  audio/1gang
+2018-06-15T06:45:46.029Z - normal: Simulator: JS:  资源加载进度 ：  3 9
+2018-06-15T06:45:46.030Z - normal: Simulator: JS: --Obj  audio/loginMusic
+2018-06-15T06:45:46.030Z - normal: Simulator: JS:  资源加载进度 ：  4 9
+2018-06-15T06:45:46.030Z - normal: Simulator: JS: --Font : font/FZY4JW
+2018-06-15T06:45:46.030Z - normal: Simulator: JS:  资源加载进度 ：  5 9
+2018-06-15T06:45:46.030Z - normal: Simulator: JS: --Texture2D : image/texture/bg
+2018-06-15T06:45:46.031Z - normal: Simulator: JS:  资源加载进度 ：  6 9
+2018-06-15T06:45:46.032Z - normal: Simulator: JS: --SpriteFrame : image/texture/btn_blue
+2018-06-15T06:45:46.032Z - normal: Simulator: JS:  资源加载进度 ：  7 9
+2018-06-15T06:45:46.032Z - normal: Simulator: JS: --SpriteAtlas : image/spriteframe/common2
+2018-06-15T06:45:46.033Z - normal: Simulator: JS:  资源加载进度 ：  8 9
+2018-06-15T06:45:46.033Z - normal: Simulator: JS: --Prefab : prefabs/spNode
+2018-06-15T06:45:46.034Z - normal: Simulator: JS:  资源加载进度 ：  9 9
+2018-06-15T06:45:46.048Z - normal: Simulator: JS: create spriteframe--
+2018-06-15T06:45:46.049Z - normal: Simulator: JS: 修改为网络图片
+2018-06-15T06:45:51.214Z - normal: Simulator: JS: ########### _onHW1  this is btnController Object 来自 hello world 场景的消息1
+2018-06-15T06:45:53.175Z - normal: Simulator: JS: ########### _onHW1  this is btnController Object 来自 hello world 场景的消息1
+2018-06-15T06:45:53.375Z - normal: Simulator: JS: ########### _onHW1  this is btnController Object 来自 hello world 场景的消息1
+2018-06-15T06:45:54.375Z - normal: Simulator: JS: ########### _onHW2  this is btnController Object 来自 hello world 场景的消息2
+2018-06-15T06:45:55.292Z - normal: Simulator: JS: ########### _onHW2  this is btnController Object 来自 hello world 场景的消息2
+2018-06-15T06:45:55.525Z - normal: Simulator: JS: ########### _onHW2  this is btnController Object 来自 hello world 场景的消息2
+2018-06-15T06:45:55.726Z - normal: Simulator: JS: ########### _onHW2  this is btnController Object 来自 hello world 场景的消息2
+2018-06-15T06:45:55.924Z - normal: Simulator: JS: ########### _onHW2  this is btnController Object 来自 hello world 场景的消息2
+2018-06-15T06:45:56.091Z - normal: Simulator: JS: ########### _onHW2  this is btnController Object 来自 hello world 场景的消息2
+2018-06-15T06:45:58.960Z - normal: Simulator: JS: ########### _onHW2  this is btnController Object 来自 hello world 场景的消息2
+2018-06-15T06:45:59.176Z - normal: Simulator: JS: ########### _onHW2  this is btnController Object 来自 hello world 场景的消息2
+2018-06-15T06:45:59.459Z - normal: Simulator: JS: _event null :  _onHW1
+2018-06-15T06:45:59.692Z - normal: Simulator: JS: _event null :  _onHW1
+2018-06-15T06:45:59.842Z - normal: Simulator: JS: _event null :  _onHW1
+2018-06-15T06:46:00.025Z - normal: Simulator: JS: _event null :  _onHW1
+2018-06-15T06:46:00.225Z - normal: Simulator: JS: _event null :  _onHW1
+2018-06-15T06:46:00.408Z - normal: Simulator: JS: _event null :  _onHW1
+2018-06-15T06:46:02.474Z - normal: Simulator: JS: _event null :  _onHW1
+2018-06-15T06:46:02.675Z - normal: Simulator: JS: _event null :  _onHW1
+2018-06-15T06:46:03.091Z - normal: Simulator: JS: _event null :  _onHW1
+2018-06-15T06:46:03.291Z - normal: Simulator: JS: _event null :  _onHW1
+2018-06-15T06:46:08.095Z - normal: Simulator: JS: LoadScene 91e5c13e-9890-4370-9610-aca7ccd92ce9: 419.9409999999989ms
+2018-06-15T06:46:08.098Z - normal: Simulator: JS: InitScene: 2.850000000002183ms
+2018-06-15T06:46:08.098Z - normal: Simulator: JS: AutoRelease: 0.05400000000008731ms
+2018-06-15T06:46:08.167Z - normal: Simulator: JS: Destroy: 68.16799999999785ms
+2018-06-15T06:46:08.167Z - normal: Simulator: JS: AttachPersist: 0.004000000000814907ms
+2018-06-15T06:46:08.169Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:08.171Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:08.183Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:08.184Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:08.184Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:08.185Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:08.185Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:08.185Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:08.192Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:08.193Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:08.207Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:08.208Z - normal: Simulator: JS: gameConfMgr version 1.2.0
+2018-06-15T06:46:08.208Z - normal: Simulator: JS: gameConfMgr gamemode game
+2018-06-15T06:46:08.210Z - normal: Simulator: JS: Activate: 28.71099999999933ms
+2018-06-15T06:46:09.308Z - normal: Simulator: JS:  audio :  /Users/yajing/AtomFrame/assets/resources/common/audio/loginMusic.mp3 0.200000
+2018-06-15T06:46:10.055Z - normal: Simulator: I/AudioEngine-inl.mm (359): OpenAL was initialized successfully!
+2018-06-15T06:46:10.056Z - normal: Simulator: JS:  audio :  /Users/yajing/AtomFrame/assets/resources/common/audio/1gang.mp3 0.200000
+2018-06-15T06:46:11.908Z - normal: Simulator: V/AudioCache (248): Orignal total frames: 13248, adjust frames: 529, current total frames: 13777
+2018-06-15T06:46:11.909Z - normal: Simulator: V/AudioCache (311): pcm buffer was loaded successfully, total frames: 13777, total read frames: 13248, adjust frames: 529, remainingFrames: 529
+2018-06-15T06:46:11.909Z - normal: Simulator: V/AudioPlayer (315): Exit rotate buffer thread ...
+2018-06-15T06:46:11.909Z - normal: Simulator: JS:  music volume : 1
+2018-06-15T06:46:12.450Z - normal: Simulator: JS:  effect volume : 1
+2018-06-15T06:46:12.917Z - normal: Simulator: ERROR: TypeError: undefined is not an object (evaluating 'cc.Atom.fileMgr.write2File'), location: assets/Script/gameScene.js:47:24
+2018-06-15T06:46:12.917Z - normal: Simulator: STACK:
+2018-06-15T06:46:12.918Z - normal: Simulator: onWriteFile@assets/Script/gameScene.js:47:24
+2018-06-15T06:46:12.918Z - normal: Simulator: emit@src/jsb_polyfill.js:9200:24
+2018-06-15T06:46:12.918Z - normal: Simulator: emitEvents@src/jsb_polyfill.js:9185:25
+2018-06-15T06:46:12.918Z - normal: Simulator: _onTouchEnded@src/jsb_polyfill.js:8769:49
+2018-06-15T06:46:12.919Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-06-15T06:46:12.919Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-06-15T06:46:12.919Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-06-15T06:46:12.919Z - normal: Simulator: _touchEndHandler@src/jsb_polyfill.js:5532:27
+2018-06-15T06:46:12.920Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-06-15T06:46:12.920Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-06-15T06:46:14.064Z - normal: Simulator: ERROR: TypeError: undefined is not an object (evaluating 'cc.Atom.fileMgr.readFile'), location: assets/Script/gameScene.js:50:24
+2018-06-15T06:46:14.064Z - normal: Simulator: STACK:
+2018-06-15T06:46:14.065Z - normal: Simulator: onReadFile@assets/Script/gameScene.js:50:24
+2018-06-15T06:46:14.065Z - normal: Simulator: emit@src/jsb_polyfill.js:9200:24
+2018-06-15T06:46:14.065Z - normal: Simulator: emitEvents@src/jsb_polyfill.js:9185:25
+2018-06-15T06:46:14.065Z - normal: Simulator: _onTouchEnded@src/jsb_polyfill.js:8769:49
+2018-06-15T06:46:14.066Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-06-15T06:46:14.066Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-06-15T06:46:14.066Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-06-15T06:46:14.066Z - normal: Simulator: _touchEndHandler@src/jsb_polyfill.js:5532:27
+2018-06-15T06:46:14.067Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-06-15T06:46:14.067Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-06-15T06:46:14.883Z - normal: Simulator: ERROR: TypeError: undefined is not an object (evaluating 'cc.Atom.fileMgr.write2File'), location: assets/Script/gameScene.js:59:24
+2018-06-15T06:46:14.883Z - normal: Simulator: STACK:
+2018-06-15T06:46:14.884Z - normal: Simulator: onWriteObjFile@assets/Script/gameScene.js:59:24
+2018-06-15T06:46:14.884Z - normal: Simulator: emit@src/jsb_polyfill.js:9200:24
+2018-06-15T06:46:14.884Z - normal: Simulator: emitEvents@src/jsb_polyfill.js:9185:25
+2018-06-15T06:46:14.885Z - normal: Simulator: _onTouchEnded@src/jsb_polyfill.js:8769:49
+2018-06-15T06:46:14.885Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-06-15T06:46:14.885Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-06-15T06:46:14.886Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-06-15T06:46:14.886Z - normal: Simulator: _touchEndHandler@src/jsb_polyfill.js:5532:27
+2018-06-15T06:46:14.886Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-06-15T06:46:14.886Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-06-15T06:46:15.683Z - normal: Simulator: ERROR: TypeError: undefined is not an object (evaluating 'fs.statSync'), location: assets/Script/AtomFrame/md5.js:33:16
+2018-06-15T06:46:15.683Z - normal: Simulator: STACK:
+2018-06-15T06:46:15.684Z - normal: Simulator: md5File@assets/Script/AtomFrame/md5.js:33:16
+2018-06-15T06:46:15.684Z - normal: Simulator: onFileMd5@assets/Script/gameScene.js:68:40
+2018-06-15T06:46:15.684Z - normal: Simulator: emit@src/jsb_polyfill.js:9200:24
+2018-06-15T06:46:15.685Z - normal: Simulator: emitEvents@src/jsb_polyfill.js:9185:25
+2018-06-15T06:46:15.685Z - normal: Simulator: _onTouchEnded@src/jsb_polyfill.js:8769:49
+2018-06-15T06:46:15.685Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-06-15T06:46:15.685Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-06-15T06:46:15.686Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-06-15T06:46:15.686Z - normal: Simulator: _touchEndHandler@src/jsb_polyfill.js:5532:27
+2018-06-15T06:46:15.686Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-06-15T06:46:15.686Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-06-15T06:46:16.604Z - normal: Simulator: JS: 3b42020250e907a8afd8d69709e794d2
+2018-06-15T06:46:16.616Z - normal: Simulator: ERROR: TypeError: null is not an object (evaluating 'this.buffers.push'), location: __node_modules/create-hash/browser.js:20:15
+2018-06-15T06:46:16.617Z - normal: Simulator: STACK:
+2018-06-15T06:46:16.617Z - normal: Simulator: _update@__node_modules/create-hash/browser.js:20:15
+2018-06-15T06:46:16.617Z - normal: Simulator: update@__node_modules/cipher-base/index.js:28:29
+2018-06-15T06:46:16.617Z - normal: Simulator: md5Str@assets/Script/AtomFrame/md5.js:43:31
+2018-06-15T06:46:16.618Z - normal: Simulator: onMd5Str@assets/Script/gameScene.js:64:39
+2018-06-15T06:46:16.618Z - normal: Simulator: emit@src/jsb_polyfill.js:9200:24
+2018-06-15T06:46:16.618Z - normal: Simulator: emitEvents@src/jsb_polyfill.js:9185:25
+2018-06-15T06:46:16.618Z - normal: Simulator: _onTouchEnded@src/jsb_polyfill.js:8769:49
+2018-06-15T06:46:16.618Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-06-15T06:46:16.619Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-06-15T06:46:16.619Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-06-15T06:46:16.619Z - normal: Simulator: _touchEndHandler@src/jsb_polyfill.js:5532:27
+2018-06-15T06:46:16.620Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-06-15T06:46:16.620Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-06-15T06:46:20.511Z - normal: Simulator: JS: LoadScene 2d2f792f-a40c-49bb-a189-ed176a246e49: 36.286999999996624ms
+2018-06-15T06:46:20.515Z - normal: Simulator: JS: InitScene: 4.258999999998196ms
+2018-06-15T06:46:20.515Z - normal: Simulator: JS: AutoRelease: 0.05500000000029104ms
+2018-06-15T06:46:20.521Z - normal: Simulator: JS: Destroy: 5.152999999998428ms
+2018-06-15T06:46:20.521Z - normal: Simulator: JS: AttachPersist: 0.004000000000814907ms
+2018-06-15T06:46:20.538Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.538Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.540Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.540Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.541Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.541Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.542Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.544Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.570Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.570Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.571Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.572Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.572Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.573Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.573Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.574Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.574Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.574Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.575Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.575Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.575Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T06:46:20.576Z - normal: Simulator: JS: !---- AtomFrame ----!
+2018-06-15T06:46:20.576Z - normal: Simulator: JS: -new:timerMgr
+2018-06-15T06:46:20.576Z - normal: Simulator: JS: -new:md5
+2018-06-15T06:46:20.576Z - normal: Simulator: JS: -new:gameState
+2018-06-15T06:46:20.577Z - normal: Simulator: JS: -new:gameConfMgr
+2018-06-15T06:46:20.577Z - normal: Simulator: JS: -new:eventMgr
+2018-06-15T06:46:20.577Z - normal: Simulator: JS: -new:msgMgr
+2018-06-15T06:46:20.578Z - normal: Simulator: JS: -new:spriteMgr
+2018-06-15T06:46:20.578Z - normal: Simulator: JS: -new:audioMgr
+2018-06-15T06:46:20.578Z - normal: Simulator: JS: -new:prefabMgr
+2018-06-15T06:46:20.579Z - normal: Simulator: JS: -new:effectMgr
+2018-06-15T06:46:20.580Z - normal: Simulator: JS: -new:animateMgr
+2018-06-15T06:46:20.580Z - normal: Simulator: JS: -new:resMgr
+2018-06-15T06:46:20.581Z - normal: Simulator: JS: -new:UIMgr
+2018-06-15T06:46:20.581Z - normal: Simulator: JS: -new:comFunMgr
+2018-06-15T06:46:20.581Z - normal: Simulator: JS: -new:gameDataMgr
+2018-06-15T06:46:20.581Z - normal: Simulator: JS: -new:gameNetMgr
+2018-06-15T06:46:20.582Z - normal: Simulator: JS: -new:socketMgr
+2018-06-15T06:46:20.582Z - normal: Simulator: JS: -new:hotUpdateMgr
+2018-06-15T06:46:20.582Z - normal: Simulator: JS: gameConfMgr version 0.0.0
+2018-06-15T06:46:20.583Z - normal: Simulator: JS: gameConfMgr gamemode undefined
+2018-06-15T06:46:20.583Z - normal: Simulator: JS: gameConfMgr version 1.2.0
+2018-06-15T06:46:20.583Z - normal: Simulator: JS: gameConfMgr gamemode game
+2018-06-15T06:46:20.584Z - normal: Simulator: JS: LOAD ---  this is btnController Object
+2018-06-15T06:46:20.584Z - normal: Simulator: JS: Activate: 50.25ms
+2018-06-15T06:46:20.621Z - normal: Simulator: JS:  loadres err !!
+2018-06-15T06:46:20.621Z - normal: Simulator: JS: [ERROR]: Asset in "resources/prefabs/spNode" does not exist.
+2018-06-15T06:46:23.840Z - normal: Simulator: JS: spNode  do not loaded , load the prefab resource frist !!!
+2018-06-15T06:46:23.849Z - normal: Simulator: ERROR: TypeError: undefined is not an object (evaluating 'node.parent = cc.director.getScene()'), location: assets/Script/btnController.js:110:17
+2018-06-15T06:46:23.849Z - normal: Simulator: STACK:
+2018-06-15T06:46:23.850Z - normal: Simulator: onBtnCreateNode@assets/Script/btnController.js:110:17
+2018-06-15T06:46:23.850Z - normal: Simulator: emit@src/jsb_polyfill.js:9200:24
+2018-06-15T06:46:23.850Z - normal: Simulator: emitEvents@src/jsb_polyfill.js:9185:25
+2018-06-15T06:46:23.851Z - normal: Simulator: _onTouchEnded@src/jsb_polyfill.js:8769:49
+2018-06-15T06:46:23.851Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-06-15T06:46:23.851Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-06-15T06:46:23.852Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-06-15T06:46:23.852Z - normal: Simulator: _touchEndHandler@src/jsb_polyfill.js:5532:27
+2018-06-15T06:46:23.852Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-06-15T06:46:23.852Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-06-15T06:46:37.576Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-06-15T06:46:37.577Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 504
+2018-06-15T06:46:37.602Z - normal: Simulator: GC end ..., (Native -> JS map) count: 172
+2018-06-15T06:46:37.604Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 172
+2018-06-15T06:46:37.630Z - normal: Simulator: GC end ..., (Native -> JS map) count: 172
+2018-06-15T06:46:37.630Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 172
+2018-06-15T06:46:37.630Z - normal: Simulator: GC end ..., (Native -> JS map) count: 172
+2018-06-15T06:46:37.678Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-06-15T07:15:11.190Z - warn: The Asset used in prefab "spNode.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/common/prefabs/spNode.prefab"
+Missing uuid: "f5433e66-9e27-4b90-995b-a389e58b0550"
+
+2018-06-15T07:15:11.205Z - warn: The Asset used in prefab "spNode.prefab" is missing. Detailed information:
+Asset url: "db://assets/resources/common/prefabs/spNode.prefab"
+Missing uuid: "f5433e66-9e27-4b90-995b-a389e58b0550"
+
+2018-06-15T07:16:49.624Z - normal: Simulator: WORKAREA WIDTH 1860.00, HEIGHT 1035.00
+2018-06-15T07:16:49.658Z - normal: Simulator: FRAME SCALE = 1.00
+2018-06-15T07:16:49.852Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-06-15T07:16:50.722Z - normal: Simulator: 
+2018-06-15T07:16:50.723Z - normal: Simulator: {
+2018-06-15T07:16:50.723Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-06-15T07:16:50.724Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-06-15T07:16:50.760Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-06-15T07:16:50.760Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-06-15T07:16:50.760Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-06-15T07:16:50.760Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 4000 OpenGL Engine
+2018-06-15T07:16:50.760Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-06-15T07:16:50.761Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-06-15T07:16:50.761Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-06-15T07:16:50.761Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-06-15T07:16:50.761Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-06-15T07:16:50.761Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-06-15T07:16:50.762Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-06-15T07:16:50.762Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-06-15T07:16:50.762Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-06-15T07:16:50.762Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.25.19
+2018-06-15T07:16:50.762Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-06-15T07:16:50.763Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-06-15T07:16:50.763Z - normal: Simulator: }
+2018-06-15T07:16:50.763Z - normal: Simulator: 
+2018-06-15T07:16:50.764Z - normal: Simulator: 
+2018-06-15T07:16:50.764Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-06-15T07:16:50.795Z - normal: Simulator: Project Config:
+2018-06-15T07:16:50.796Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-06-15T07:16:50.796Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-06-15T07:16:50.796Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-06-15T07:16:50.797Z - normal: Simulator:     frame size: 960 x 640
+2018-06-15T07:16:50.797Z - normal: Simulator:     frame scale: 1.00
+2018-06-15T07:16:50.797Z - normal: Simulator:     show console: NO
+2018-06-15T07:16:50.798Z - normal: Simulator:     write debug log: NO ()
+2018-06-15T07:16:50.798Z - normal: Simulator:     listen: 
+2018-06-15T07:16:50.798Z - normal: Simulator:     debugger: none
+2018-06-15T07:16:50.798Z - normal: Simulator:     add searching path:
+2018-06-15T07:16:50.840Z - normal: Simulator: ------------------------------------------------
+2018-06-15T07:16:50.841Z - normal: Simulator: LOAD Js FILE: main.js
+2018-06-15T07:16:50.841Z - normal: Simulator: ------------------------------------------------
+2018-06-15T07:16:50.842Z - normal: Simulator: Initializing JavaScriptCore 
+2018-06-15T07:16:51.436Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-06-15T07:16:52.553Z - normal: Simulator: iShow!
+2018-06-15T07:16:53.395Z - normal: Simulator: JS: InitScene: 7.582999999999629ms
+2018-06-15T07:16:53.395Z - normal: Simulator: JS: AutoRelease: 0.21000000000003638ms
+2018-06-15T07:16:53.395Z - normal: Simulator: JS: Destroy: 0.0909999999998945ms
+2018-06-15T07:16:53.396Z - normal: Simulator: JS: AttachPersist: 0.009999999999763531ms
+2018-06-15T07:16:53.600Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.699Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.701Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.703Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.718Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.719Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.719Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.720Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.720Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.721Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.725Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.731Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.732Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.732Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.733Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.734Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.737Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.745Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.747Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.748Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.748Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:16:53.749Z - normal: Simulator: JS: !---- AtomFrame ----!
+2018-06-15T07:16:53.749Z - normal: Simulator: JS: -new:timerMgr
+2018-06-15T07:16:53.749Z - normal: Simulator: JS: -new:md5
+2018-06-15T07:16:53.751Z - normal: Simulator: JS: -new:gameState
+2018-06-15T07:16:53.752Z - normal: Simulator: JS: -new:gameConfMgr
+2018-06-15T07:16:53.752Z - normal: Simulator: JS: -new:eventMgr
+2018-06-15T07:16:53.753Z - normal: Simulator: JS: -new:msgMgr
+2018-06-15T07:16:53.754Z - normal: Simulator: JS: -new:spriteMgr
+2018-06-15T07:16:53.754Z - normal: Simulator: JS: -new:audioMgr
+2018-06-15T07:16:53.755Z - normal: Simulator: JS: -new:prefabMgr
+2018-06-15T07:16:53.764Z - normal: Simulator: JS: -new:effectMgr
+2018-06-15T07:16:53.764Z - normal: Simulator: JS: -new:animateMgr
+2018-06-15T07:16:53.765Z - normal: Simulator: JS: -new:resMgr
+2018-06-15T07:16:53.786Z - normal: Simulator: JS: -new:UIMgr
+2018-06-15T07:16:53.787Z - normal: Simulator: JS: -new:comFunMgr
+2018-06-15T07:16:53.787Z - normal: Simulator: JS: -new:gameDataMgr
+2018-06-15T07:16:53.789Z - normal: Simulator: JS: -new:gameNetMgr
+2018-06-15T07:16:53.789Z - normal: Simulator: JS: -new:socketMgr
+2018-06-15T07:16:53.797Z - normal: Simulator: JS: -new:hotUpdateMgr
+2018-06-15T07:16:53.798Z - normal: Simulator: JS: gameConfMgr version 0.0.0
+2018-06-15T07:16:53.799Z - normal: Simulator: JS: gameConfMgr gamemode undefined
+2018-06-15T07:16:53.800Z - normal: Simulator: JS: gameConfMgr version 1.2.0
+2018-06-15T07:16:53.800Z - normal: Simulator: JS: gameConfMgr gamemode game
+2018-06-15T07:16:53.800Z - normal: Simulator: JS: LOAD ---  this is btnController Object
+2018-06-15T07:16:53.801Z - normal: Simulator: JS: Activate: 401.8359999999998ms
+2018-06-15T07:16:53.837Z - normal: Simulator: JS:  loadres err !!
+2018-06-15T07:16:53.838Z - normal: Simulator: JS: [ERROR]: Asset in "resources/prefabs/spNode" does not exist.
+2018-06-15T07:16:55.177Z - normal: Simulator: JS: spNode  do not loaded , load the prefab resource frist !!!
+2018-06-15T07:16:55.268Z - normal: Simulator: ERROR: TypeError: undefined is not an object (evaluating 'node.parent = cc.director.getScene()'), location: assets/Script/btnController.js:110:17
+2018-06-15T07:16:55.268Z - normal: Simulator: STACK:
+2018-06-15T07:16:55.269Z - normal: Simulator: onBtnCreateNode@assets/Script/btnController.js:110:17
+2018-06-15T07:16:55.270Z - normal: Simulator: emit@src/jsb_polyfill.js:9200:24
+2018-06-15T07:16:55.270Z - normal: Simulator: emitEvents@src/jsb_polyfill.js:9185:25
+2018-06-15T07:16:55.270Z - normal: Simulator: _onTouchEnded@src/jsb_polyfill.js:8769:49
+2018-06-15T07:16:55.271Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-06-15T07:16:55.271Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-06-15T07:16:55.272Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-06-15T07:16:55.272Z - normal: Simulator: _touchEndHandler@src/jsb_polyfill.js:5532:27
+2018-06-15T07:16:55.272Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-06-15T07:16:55.273Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-06-15T07:16:57.567Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-06-15T07:16:57.568Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 187
+2018-06-15T07:16:57.582Z - normal: Simulator: GC end ..., (Native -> JS map) count: 148
+2018-06-15T07:16:57.583Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 148
+2018-06-15T07:16:57.596Z - normal: Simulator: GC end ..., (Native -> JS map) count: 148
+2018-06-15T07:16:57.597Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 148
+2018-06-15T07:16:57.603Z - normal: Simulator: GC end ..., (Native -> JS map) count: 148
+2018-06-15T07:16:57.618Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-06-15T07:17:29.939Z - normal: Simulator: WORKAREA WIDTH 1858.00, HEIGHT 1035.00
+2018-06-15T07:17:29.983Z - normal: Simulator: FRAME SCALE = 1.00
+2018-06-15T07:17:30.010Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2018-06-15T07:17:30.334Z - normal: Simulator: 
+2018-06-15T07:17:30.335Z - normal: Simulator: {
+2018-06-15T07:17:30.335Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2018-06-15T07:17:30.336Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2018-06-15T07:17:30.336Z - normal: Simulator: 	cocos2d.x.version: 1.7.0
+2018-06-15T07:17:30.337Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2018-06-15T07:17:30.337Z - normal: Simulator: 	gl.supports_PVRTC: false
+2018-06-15T07:17:30.337Z - normal: Simulator: 	gl.renderer: Intel HD Graphics 4000 OpenGL Engine
+2018-06-15T07:17:30.338Z - normal: Simulator: 	cocos2d.x.compiled_with_profiler: false
+2018-06-15T07:17:30.339Z - normal: Simulator: 	gl.max_texture_size: 16384
+2018-06-15T07:17:30.339Z - normal: Simulator: 	gl.supports_ETC1: false
+2018-06-15T07:17:30.340Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2018-06-15T07:17:30.380Z - normal: Simulator: 	cocos2d.x.build_type: DEBUG
+2018-06-15T07:17:30.381Z - normal: Simulator: 	gl.max_texture_units: 16
+2018-06-15T07:17:30.382Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2018-06-15T07:17:30.382Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2018-06-15T07:17:30.383Z - normal: Simulator: 	gl.supports_NPOT: true
+2018-06-15T07:17:30.383Z - normal: Simulator: 	gl.version: 2.1 INTEL-10.25.19
+2018-06-15T07:17:30.384Z - normal: Simulator: 	cocos2d.x.compiled_with_gl_state_cache: true
+2018-06-15T07:17:30.384Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2018-06-15T07:17:30.384Z - normal: Simulator: }
+2018-06-15T07:17:30.385Z - normal: Simulator: 
+2018-06-15T07:17:30.385Z - normal: Simulator: 
+2018-06-15T07:17:30.386Z - normal: Simulator: cocos2d: warning, Director::setProjection() failed because size is 0
+2018-06-15T07:17:30.386Z - normal: Simulator: Project Config:
+2018-06-15T07:17:30.386Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2018-06-15T07:17:30.387Z - normal: Simulator:     writable path: $(PROJDIR)/
+2018-06-15T07:17:30.387Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2018-06-15T07:17:30.387Z - normal: Simulator:     frame size: 960 x 640
+2018-06-15T07:17:30.388Z - normal: Simulator:     frame scale: 1.00
+2018-06-15T07:17:30.388Z - normal: Simulator:     show console: NO
+2018-06-15T07:17:30.388Z - normal: Simulator:     write debug log: NO ()
+2018-06-15T07:17:30.388Z - normal: Simulator:     listen: 
+2018-06-15T07:17:30.389Z - normal: Simulator:     debugger: none
+2018-06-15T07:17:30.389Z - normal: Simulator:     add searching path:
+2018-06-15T07:17:30.390Z - normal: Simulator: 
+2018-06-15T07:17:30.390Z - normal: Simulator: 
+2018-06-15T07:17:30.390Z - normal: Simulator: 
+2018-06-15T07:17:30.390Z - normal: Simulator: ------------------------------------------------
+2018-06-15T07:17:30.390Z - normal: Simulator: LOAD Js FILE: main.js
+2018-06-15T07:17:30.391Z - normal: Simulator: ------------------------------------------------
+2018-06-15T07:17:30.391Z - normal: Simulator: Initializing JavaScriptCore 
+2018-06-15T07:17:30.488Z - normal: Simulator: JS: Cocos2d-x-lite v1.7.0
+2018-06-15T07:17:31.434Z - normal: Simulator: iShow!
+2018-06-15T07:17:31.716Z - normal: Simulator: JS: InitScene: 7.230000000000018ms
+2018-06-15T07:17:31.717Z - normal: Simulator: JS: AutoRelease: 0.26300000000014734ms
+2018-06-15T07:17:31.717Z - normal: Simulator: JS: Destroy: 0.1510000000000673ms
+2018-06-15T07:17:31.718Z - normal: Simulator: JS: AttachPersist: 0.009999999999990905ms
+2018-06-15T07:17:31.791Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.856Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.860Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.862Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.867Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.868Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.871Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.883Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.884Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.884Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.885Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.894Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.895Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.898Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.901Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.906Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.913Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.913Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.913Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.915Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.917Z - normal: Simulator: JS: [WARN]: Sorry, lineHeight of system font not supported on JSB.
+2018-06-15T07:17:31.918Z - normal: Simulator: JS: !---- AtomFrame ----!
+2018-06-15T07:17:31.919Z - normal: Simulator: JS: -new:timerMgr
+2018-06-15T07:17:31.919Z - normal: Simulator: JS: -new:md5
+2018-06-15T07:17:31.937Z - normal: Simulator: JS: -new:gameState
+2018-06-15T07:17:31.937Z - normal: Simulator: JS: -new:gameConfMgr
+2018-06-15T07:17:31.938Z - normal: Simulator: JS: -new:eventMgr
+2018-06-15T07:17:31.939Z - normal: Simulator: JS: -new:msgMgr
+2018-06-15T07:17:31.940Z - normal: Simulator: JS: -new:spriteMgr
+2018-06-15T07:17:31.940Z - normal: Simulator: JS: -new:audioMgr
+2018-06-15T07:17:31.940Z - normal: Simulator: JS: -new:prefabMgr
+2018-06-15T07:17:31.941Z - normal: Simulator: JS: -new:effectMgr
+2018-06-15T07:17:31.941Z - normal: Simulator: JS: -new:animateMgr
+2018-06-15T07:17:31.941Z - normal: Simulator: JS: -new:resMgr
+2018-06-15T07:17:31.961Z - normal: Simulator: JS: -new:UIMgr
+2018-06-15T07:17:31.962Z - normal: Simulator: JS: -new:comFunMgr
+2018-06-15T07:17:31.962Z - normal: Simulator: JS: -new:gameDataMgr
+2018-06-15T07:17:31.962Z - normal: Simulator: JS: -new:gameNetMgr
+2018-06-15T07:17:31.963Z - normal: Simulator: JS: -new:socketMgr
+2018-06-15T07:17:31.963Z - normal: Simulator: JS: -new:hotUpdateMgr
+2018-06-15T07:17:31.963Z - normal: Simulator: JS: gameConfMgr version 0.0.0
+2018-06-15T07:17:31.964Z - normal: Simulator: JS: gameConfMgr gamemode undefined
+2018-06-15T07:17:31.964Z - normal: Simulator: JS: gameConfMgr version 1.2.0
+2018-06-15T07:17:31.964Z - normal: Simulator: JS: gameConfMgr gamemode game
+2018-06-15T07:17:31.965Z - normal: Simulator: JS: LOAD ---  this is btnController Object
+2018-06-15T07:17:31.982Z - normal: Simulator: JS: Activate: 242.423ms
+2018-06-15T07:17:32.021Z - normal: Simulator: JS:  loadres err !!
+2018-06-15T07:17:32.021Z - normal: Simulator: JS: [ERROR]: Asset in "resources/prefabs/spNode" does not exist.
+2018-06-15T07:17:54.936Z - normal: Simulator: JS: spNode  do not loaded , load the prefab resource frist !!!
+2018-06-15T07:17:55.031Z - normal: Simulator: ERROR: TypeError: undefined is not an object (evaluating 'node.parent = cc.director.getScene()'), location: assets/Script/btnController.js:110:17
+2018-06-15T07:17:55.032Z - normal: Simulator: STACK:
+2018-06-15T07:17:55.033Z - normal: Simulator: onBtnCreateNode@assets/Script/btnController.js:110:17
+2018-06-15T07:17:55.033Z - normal: Simulator: emit@src/jsb_polyfill.js:9200:24
+2018-06-15T07:17:55.034Z - normal: Simulator: emitEvents@src/jsb_polyfill.js:9185:25
+2018-06-15T07:17:55.034Z - normal: Simulator: _onTouchEnded@src/jsb_polyfill.js:8769:49
+2018-06-15T07:17:55.034Z - normal: Simulator: invoke@src/jsb_polyfill.js:14257:28
+2018-06-15T07:17:55.035Z - normal: Simulator: _doDispatchEvent@src/jsb_polyfill.js:14303:109
+2018-06-15T07:17:55.035Z - normal: Simulator: dispatchEvent@src/jsb_polyfill.js:14420:25
+2018-06-15T07:17:55.035Z - normal: Simulator: _touchEndHandler@src/jsb_polyfill.js:5532:27
+2018-06-15T07:17:55.036Z - normal: Simulator: jsb: ERROR: File /Users/nantas/fireball-x/fireball_1.7.1/cocos2d-x-lite/cocos/scripting/js-bindings/manual/jsb_cocos2dx_manual.cpp: Line: 460, Function: invokeJSTouchOneByOneCallback
+2018-06-15T07:17:55.036Z - normal: Simulator: invokeJSTouchOneByOneCallback call function failed!
+2018-06-15T07:46:32.242Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2018-06-15T07:46:32.312Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 187
+2018-06-15T07:46:32.322Z - normal: Simulator: GC end ..., (Native -> JS map) count: 187
+2018-06-15T07:46:32.322Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 187
+2018-06-15T07:46:32.323Z - normal: Simulator: GC end ..., (Native -> JS map) count: 187
+2018-06-15T07:46:32.323Z - normal: Simulator: GC begin ..., (Native -> JS map) count: 187
+2018-06-15T07:46:32.324Z - normal: Simulator: GC end ..., (Native -> JS map) count: 187
+2018-06-15T07:46:32.410Z - normal: Simulator: ScriptEngine::cleanup end ...

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "image-common2-weikaishi",
+    "texture": "a0d60e83-436b-4818-aadb-d6284123e7aa",
+    "atlas": "f35c7288-7f57-4a2c-a453-6a18b76da236",
+    "rect": [
+      356,
+      2,
+      178,
+      120
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      178,
+      120
+    ]
+  }
+}

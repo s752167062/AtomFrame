@@ -1,0 +1,59 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "common2.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "image-common2-fangjianliebiao": {
+      "__uuid__": "38dacfef-6dc2-43ef-96eb-90666c1198cc"
+    },
+    "image-common2-lishizhanji": {
+      "__uuid__": "909b96ca-c17a-45cd-92ad-32d5a077143d"
+    },
+    "image-common2-paijuliushui": {
+      "__uuid__": "c71e4db4-12f7-4193-a86a-56bb59fd5be6"
+    },
+    "image-common2-shangcheng": {
+      "__uuid__": "3acb82e8-d2dd-49f3-9bda-30f07284fe04"
+    },
+    "image-common2-wanfaxuanze": {
+      "__uuid__": "ee7cb2e8-ff21-4de9-b2f1-d5f2ee630453"
+    },
+    "image-common2-weikaishi": {
+      "__uuid__": "fd678594-a2ac-4903-8f1a-0d90e31ba3d1"
+    },
+    "image-common2-yijieshu": {
+      "__uuid__": "fa079fac-70f5-4dc8-b936-5be55c55cfb7"
+    },
+    "image-common2-youxizhong": {
+      "__uuid__": "024031fb-43c8-4990-a258-555a77d63436"
+    },
+    "image-common2-zhanjihuifang": {
+      "__uuid__": "f1c0333f-f0a1-4065-8884-d0ea5611a372"
+    },
+    "image-common2-tuoguanzhong": {
+      "__uuid__": "324a38ff-7bf1-4de5-8a8d-df9f1590048f"
+    },
+    "image-common2-txt_agreement": {
+      "__uuid__": "0d4b2c7e-7cc3-4534-ad77-7ccadc4f9c9b"
+    },
+    "image-common2-videoflag": {
+      "__uuid__": "3a955a3f-a621-44cf-b826-828eb1db1c88"
+    },
+    "image-common2-zhunbeizhong": {
+      "__uuid__": "a0a6c8b6-9be5-46e1-816d-273caebd62a4"
+    },
+    "image-common2-jinbichangwanfa": {
+      "__uuid__": "ef5ad945-974a-42d0-b4b9-eed6721f65bb"
+    },
+    "image-common2-changshamajiang": {
+      "__uuid__": "bed73b15-4d24-4d32-a941-df64a775f678"
+    },
+    "image-common2-hongzhongmajiang": {
+      "__uuid__": "c3293cfb-57a4-4f8c-9fba-0c1e6958b5e7"
+    },
+    "image-common2-zhuanzhuanmajiang": {
+      "__uuid__": "a1a6893a-a932-4605-a4b3-d41b316993f8"
+    }
+  }
+}

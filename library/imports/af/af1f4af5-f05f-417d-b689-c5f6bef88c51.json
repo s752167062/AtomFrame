@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "game_utils_mj2.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "image-game-game_utils_mj-bu": {
+      "__uuid__": "0867422f-6901-408e-91fb-837d35385eab"
+    },
+    "image-game-game_utils_mj-chi": {
+      "__uuid__": "ef2febad-9bb7-419b-b44d-940b93e2e465"
+    },
+    "image-game-game_utils_mj-gang": {
+      "__uuid__": "ad352ef9-5b39-4b08-8e23-1ab8b6a1222c"
+    },
+    "image-game-game_utils_mj-guo": {
+      "__uuid__": "9ca6de5c-52cf-49b9-9525-c7b0adfb740c"
+    },
+    "image-game-game_utils_mj-hu": {
+      "__uuid__": "0241e456-c0ee-4912-98f6-e29f647ba694"
+    },
+    "image-game-game_utils_mj-peng": {
+      "__uuid__": "c150c888-96b4-4534-a84e-4d9877e04b46"
+    },
+    "image-game-game_utils_mj-point1": {
+      "__uuid__": "cd6ce2e0-0bff-48ee-9c56-ce20252308a6"
+    },
+    "image-game-game_utils_mj-ui_outline": {
+      "__uuid__": "f33a2a06-d1c0-46f1-8a5b-ac3e60afc3a6"
+    },
+    "image-game-game_utils_mj-yao": {
+      "__uuid__": "11fcac44-7433-431a-9b12-c4a0b0e181d8"
+    }
+  }
+}

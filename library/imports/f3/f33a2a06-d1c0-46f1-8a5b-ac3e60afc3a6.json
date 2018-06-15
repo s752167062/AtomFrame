@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "image-game-game_utils_mj-ui_outline",
+    "texture": "56744f0e-17e6-4ff5-ac5c-b83c3671f17b",
+    "atlas": "af1f4af5-f05f-417d-b689-c5f6bef88c51",
+    "rect": [
+      2,
+      2,
+      789,
+      59
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      1024,
+      60
+    ]
+  }
+}
