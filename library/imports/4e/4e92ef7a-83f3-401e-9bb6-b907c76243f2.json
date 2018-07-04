@@ -22,7 +22,7 @@
     "_active": true,
     "_components": [],
     "_prefab": null,
-    "_id": "",
+    "_id": "4e92ef7a-83f3-401e-9bb6-b907c76243f2",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -64,7 +64,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "",
+    "_id": "17B1bQVN9JHrpoWPuiFR2/",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -81,8 +81,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 1136,
+      "height": 640
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -90,8 +90,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
+      "x": 568,
+      "y": 320
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -110,7 +110,7 @@
     "_enabled": true,
     "_designResolution": {
       "__type__": "cc.Size",
-      "width": 960,
+      "width": 1136,
       "height": 640
     },
     "_fitWidth": false,
