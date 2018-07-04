@@ -4,6 +4,9 @@ cc._RF.push(module, 'a426bFK1/BNb7LEq7baNAPu', 'timerMgr', __filename);
 
 "use strict";
 
+/**
+有关Component 组件的计时器 参考 https://github.com/cocos-creator/engine/blob/master/cocos2d/core/components/CCComponent.js#L541
+*/
 cc.Class({
     extends: cc.Component,
 
@@ -16,7 +19,10 @@ cc.Class({
     ctor: function ctor() {
         console.log("-new:" + this.TAG);
         this.tasklist = {};
-        this.schedule(this.mUpdate, 0);
+        // this.schedule(this.mUpdate, 0);
+
+        var scheduler = cc.director.getScheduler();
+        scheduler.schedule(this.mUpdate, this, 0, cc.macro.REPEAT_FOREVER, 0, false);
     },
 
     onLoad: function onLoad() {
@@ -25,7 +31,9 @@ cc.Class({
 
     onDestroy: function onDestroy() {
         console.log("-destory:" + this.TAG);
-        this.unschedule(this.mUpdate);
+        // this.unschedule(this.mUpdate)
+
+        cc.director.getScheduler().unschedule(this.mUpdate, this);
     },
 
     mUpdate: function mUpdate(t) {
@@ -39,7 +47,7 @@ cc.Class({
                         if (item.cd_t > item.time) {
                             item.cd_t = 0;
                             item.callback();
-                            // console.log("update task : ", key, item.taskType);
+                            console.log("update task : ", key, item.taskType);
                             //执行1次
                             if (item.taskType == this.TASK_TYPE_ONE) {
                                 item.remove = true;
