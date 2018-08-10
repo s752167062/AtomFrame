@@ -102,6 +102,8 @@ cc.Class({
 
                         callfunc? callfunc(_num , total, null):null;
                     } 
+
+                    //处理
                     if (_type == "plist"){
                         cc.loader.loadRes(key + "/" + _resValue, cc.SpriteAtlas, callback)
                     }else if(_type == "sprite"){
