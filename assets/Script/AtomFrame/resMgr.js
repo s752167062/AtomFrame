@@ -28,6 +28,8 @@ cc.Class({
             }
 
             this.resData = data;
+            console.log(">>>> RESJSON :" + JSON.stringify(this.resData))
+            //这里需要有个回调判断资源表是否解析完成
         });
     },
 
@@ -41,10 +43,14 @@ cc.Class({
 
     //通过key加载资源 
     //callfunc function : 进度回调
+    //资源提示未找到文件的 查看文件路径 和 资源json配置的路径
     loadResByKey: function (key , callfunc) {
-        if(key != null && this.resData[key] != null){
+        console.log(">>>> RESJSON :" + JSON.stringify(this.resData))
+        console.log(">>>> RESJSON :" + JSON.stringify(this.resData["json"][key]))
+        //原本一开始是 this.resData[key] 为对象内容 --升级版本后发现cc.loader.loadRes 返回的数据结构被修改了
+        if(key != null && this.resData["json"][key] != null){
             var total  = 0;
-            var keyres = this.resData[key]; 
+            var keyres = this.resData["json"][key]; 
             for (const _value in keyres) {
                 if (keyres.hasOwnProperty(_value)) {
                     total ++ ;

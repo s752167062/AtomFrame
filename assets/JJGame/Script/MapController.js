@@ -1,74 +1,68 @@
 //MapController 只负责数据的生成，不包含节点
+/*
+    1.地图初始生成 后续在生成点添加新的点
+    2.地图向下移动，出地图的部分自动删除
+*/
 cc.Class({
     extends: cc.Component,
 
     properties: {
-        TAG: "MapController",
-        Level:1 , //难度等级
-        step:0,   //第几阶
-        Map:[],    //阶梯地图数据
-
-        BaseStepNum:8
+        TAG: "MapController"
     },
 
-    ctor:function() {
+    ctor() {
         console.log("-new:" + this.TAG);
     },
 
-    onLoad:function(){
+    onLoad(){
         console.log("-load:" + this.TAG);
     },
 
-    onDestory:function(){
+    onDestory(){
         console.log("-destory:" + this.TAG);
     },
 
-    //生成位置数据
-    makeSteps:function(){
-        step += 1;
-        var stepnumber = (step%2 == 0)?BaseStepNum : (BaseStepNum+1);
-        var stepList = [];
-        for (var i = 0; i < stepnumber; i++) {
+    //生成砖块数据
+    makeBrick(){
+        var brickNum = cc.Atom.gameConfMgr.getInfo("brickNum");
+        var bricList = [];
+        for (var i = 0; i < brickNum; i++) {
             var item = {};
-            item.step_type  = aiStepType(); 
-            item.stepnumber = stepnumber;//本阶的砖块数量
-            stepList[i] = item;
+            item.brickType= this.aiBrickType(); 
+            item.brickNum = brickNum;//本阶的砖块数量
+            bricList[i] = item;
         }
-        return stepList;
+        return bricList;
     },
-    aiStepType :function(){
+    aiBrickType(){
         //ai 运算是什么类型  base , empy , trap , buff
         return "base";
     },
 
     //生成位置节点
-    //index_tag 新一行的起始tag 
-    makeStepNodes:function(index_tag){
-        var stepList_data = makeSteps();
-        var stepNodeList  = [];
-        for (var i = 0; i < stepList_data.length; i++) {
-            var item = stepList_data[i];
-            var node = cc.Atom.prefMgr.getPrefabObj("brick"); //创建一个砖块 prefab节点
+    //index_tag 新一行的起始tag  （循环的 1-50 ）
+    makeBrickNodes(index_tag){
+        var bricList_data = this.makeBrick();
+        var brickNodeList = [];
+        for (var i = 0; i < bricList_data.length; i++) {
+            var item = bricList_data[i];
+            var node = cc.Atom.prefabMgr.getPrefabObj("brick"); //创建一个砖块 prefab节点
             //预设对象才处理
-            if(node instanceof cc.Prefab){
-                node.setTag(index_tag + i);
+            console.log(">>> prefab obj type :" + typeof(node))
+            if(node != null){
+                node.name = "" + (index_tag + i);
                 //获取预制资源中的js组件，并作出相应操作
-                var stepScript = node.getComponent('stepScript');
-                stepScript:setStepData(item);
-                stepNodeList[i] = item;
+                var brickScript = node.getComponent('BrickDelegate');
+                brickScript.setBrickData(item);
+                brickNodeList[i] = node;
             }else{
-                console.log(">>>> ERR makeStepNodes node not a prefab object !!!")
+                console.log(">>>> ERR makeBrickNodes node not a prefab object !!!")
             }
 
         } 
-        return stepNodeList;
-    },
-
-    //寻找安全路径
-    //length 安全阶数
-    searchSavePath:function(length){
-
+        return brickNodeList;
     }
+
     
     //获取下一个阶
 });

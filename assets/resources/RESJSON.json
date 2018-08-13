@@ -21,6 +21,11 @@
 
 	"hello":{
 		"login_logo":{ "_type":"texture" , "_value":"image/texture/login_logo"}
+	},
+
+	"JJGameRes":{
+		"brick":{ "_type":"prefab" , "_value":"prefabs/item"},
+		"player_obj":{ "_type":"prefab" , "_value":"prefabs/player_obj"}
 	}
 
 }

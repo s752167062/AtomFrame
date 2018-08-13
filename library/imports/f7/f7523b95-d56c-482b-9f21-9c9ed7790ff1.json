@@ -18,7 +18,7 @@
         "__id__": 2
       },
       {
-        "__id__": 4
+        "__id__": 5
       }
     ],
     "_tag": -1,
@@ -64,6 +64,9 @@
     "_components": [
       {
         "__id__": 3
+      },
+      {
+        "__id__": 4
       }
     ],
     "_prefab": null,
@@ -120,6 +123,18 @@
     "_fitHeight": true
   },
   {
+    "__type__": "f2bcfh4j+lBOKEauDOgI0eM",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "mapLayer": {
+      "__id__": 5
+    }
+  },
+  {
     "__type__": "cc.Node",
     "_name": "gamer",
     "_objFlags": 0,
@@ -131,7 +146,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 5
+        "__id__": 6
+      },
+      {
+        "__id__": 7
       }
     ],
     "_prefab": null,
@@ -176,7 +194,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 4
+      "__id__": 5
     },
     "_enabled": true,
     "isAlignOnce": true,
@@ -196,5 +214,15 @@
     "_isAbsVerticalCenter": true,
     "_originalWidth": 0,
     "_originalHeight": 0
+  },
+  {
+    "__type__": "321d8jUoHZMfYtl4MYSbmjE",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 5
+    },
+    "_enabled": true,
+    "TAG": "MapController"
   }
 ]

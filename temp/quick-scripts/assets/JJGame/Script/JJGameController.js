@@ -4,43 +4,85 @@ cc._RF.push(module, 'f2bcfh4j+lBOKEauDOgI0eM', 'JJGameController', __filename);
 
 "use strict";
 
-// Learn cc.Class:
-//  - [Chinese] http://www.cocos.com/docs/creator/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/class/index.html
-// Learn Attribute:
-//  - [Chinese] http://www.cocos.com/docs/creator/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/reference/attributes/index.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://www.cocos.com/docs/creator/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/life-cycle-callbacks/index.html
-
 cc.Class({
     extends: cc.Component,
 
     properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-
-        //砖块的tag基数
-        index_tag: 0,
-        minterval: 0
+        //地图层
+        mapLayer: {
+            default: null,
+            type: cc.Node
+        }
     },
-
-    // LIFE-CYCLE CALLBACKS:
 
     onLoad: function onLoad() {
+        var atom = require("AtomFrame/Atom");
+        atom.createAtom();
+
         this.gameUpdateInterval = cc.Atom.gameConfMgr.getInfo("gameUpdateInterval");
         this.gameSpeed = cc.Atom.gameConfMgr.getInfo("gameSpeed"); //节奏提速
+        this.maxSteps = cc.Atom.gameConfMgr.getInfo("maxSteps"); //最大层数
+        this.indexOffset = cc.Atom.gameConfMgr.getInfo("indexOffset"); //阶的偏移index
     },
-    start: function start() {},
+    start: function start() {
+        // console.log(">>> start")
+        this.loadRes();
+    },
+    loadRes: function loadRes() {
+        var _this = this;
+
+        console.log(">>>> loadres ");
+        cc.Atom.resMgr.loadResByKey("JJGameRes", function (index, total, err) {
+            if (err != null || index == -1) {
+                console.log("=== 加载资源出现异常： ", err);
+                return;
+            }
+            console.log(" 资源加载进度 ： ", index, total);
+            if (index == total) {
+                console.log("=== 加载完成");
+                cc.Atom.prefabMgr.loadAllPrefab([{ key: "brick", path: "JJGameRes/prefabs/item" }, { key: "player_obj", path: "JJGameRes/prefabs/player_obj" }], function (index) {
+                    console.log(index, "prefabs loadfinish");
+                    _this.addBrick();
+                });
+            }
+        });
+    },
+    addBrick: function addBrick() {
+        this.indexTag = 0; //
+        this.player_indexTag = 0;
+        this.minterval = 0;
+
+        this.mapController = this.mapLayer.getComponent('MapController');
+        //创建基础地图
+        for (var i = this.indexOffset; i <= this.maxSteps; i += this.maxSteps / this.indexOffset) {
+            var bricklist = this.mapController.makeBrickNodes(i);
+            for (var j = 0; j < bricklist.length; j++) {
+                var node = bricklist[j];
+                if (node) {
+                    var width = node.width;
+                    var height = node.height;
+                    var x = (j + 1 - (bricklist.length + 1) / 2) * width;
+                    var y = i / 10 * height + height / 2;
+                    node.parent = this.mapLayer;
+                    node.x = x;
+                    node.y = y;
+                    console.log(">>>> addBrick position : %d , %d ; %d , %d   / %d", width, height, Number(x), Number(y), i);
+                }
+            }
+        }
+    },
     update: function update(dt) {
         this.minterval += dt;
         if (this.minterval * this.gameSpeed >= this.gameUpdateInterval) {
+            this.indexTag += this.indexOffset;
+            if (this.indexTag > this.maxSteps) {
+                this.indexTag = this.indexOffset; //一个地图循环
+            }
+
+            //删除循环外的
+
+
+            //获取下一个砖块
             //角色跳
             //地图新增一阶
             //地图移动

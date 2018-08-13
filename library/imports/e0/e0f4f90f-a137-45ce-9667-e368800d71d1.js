@@ -19,6 +19,13 @@ cc.Class({
         this.infoBuff["version"] = "0.0.0";
         this.infoBuff["musicVolume"] = 0.2;
         this.infoBuff["effectVolume"] = 0.2;
+
+        //JJGame的游戏配置
+        this.infoBuff["gameUpdateInterval"] = 1;
+        this.infoBuff["gameSpeed"] = 1;
+        this.infoBuff["maxSteps"] = 100;
+        this.infoBuff["indexOffset"] = 10;
+        this.infoBuff["brickNum"] = 10;
     },
 
     //初始化存储的数据

@@ -1,9 +1,10 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.2.0",
   "uuid": "4bab67cb-18e6-4099-b840-355f0473f890",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
+  "premultiplyAlpha": false,
   "subMetas": {
     "default_scrollbar_bg": {
       "ver": "1.0.3",
@@ -20,8 +21,8 @@
       "height": 15,
       "rawWidth": 30,
       "rawHeight": 15,
-      "borderTop": 0,
-      "borderBottom": 0,
+      "borderTop": 4,
+      "borderBottom": 4,
       "borderLeft": 10,
       "borderRight": 10,
       "subMetas": {}

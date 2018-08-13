@@ -42,7 +42,7 @@ cc.Class({
                 //
                 cc.loader.loadRes(path, function (err, prefab) {
                     if (err) {
-                        console.log(" loadres err !!");
+                        console.log(">>> loadAllPrefab err !!");
                         cc.error(err.message || err);
                         return;
                     }

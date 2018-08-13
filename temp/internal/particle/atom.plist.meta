@@ -1,5 +1,15 @@
 {
-  "ver": "1.0.0",
+  "ver": "2.0.1",
   "uuid": "b2687ac4-099e-403c-a192-ff477686f4f5",
-  "subMetas": {}
+  "subMetas": {
+    "atom": {
+      "ver": "2.2.0",
+      "uuid": "2e0f53eb-fe61-4bf6-aec5-e008680a4113",
+      "type": "raw",
+      "wrapMode": "clamp",
+      "filterMode": "bilinear",
+      "premultiplyAlpha": false,
+      "subMetas": {}
+    }
+  }
 }
