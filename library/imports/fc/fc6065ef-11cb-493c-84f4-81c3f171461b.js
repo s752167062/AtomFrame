@@ -12,6 +12,14 @@ var GameState = {
     room: 4
 };
 
+var GameIngState = {
+    default: 0,
+    pause: 1,
+    gameing: 2,
+    gamestop: 3,
+    gameover: 4
+};
+
 cc.Class({
     extends: cc.Component,
 
@@ -22,6 +30,7 @@ cc.Class({
     ctor: function ctor() {
         console.log("-new:" + this.TAG);
         this.gameState = GameState.default;
+        this.gameIngState = GameIngState.default;
     },
 
     onLoad: function onLoad() {
@@ -63,6 +72,39 @@ cc.Class({
 
     isGameInRoom: function isGameInRoom() {
         return this.gameState == GameState.room;
+    },
+
+    //游戏中状态
+    setGamePause: function setGamePause() {
+        this.gameIngState = GameIngState.pause;
+    },
+
+    isGamePause: function isGamePause() {
+        return this.gameIngState == GameIngState.pause;
+    },
+
+    setGameStop: function setGameStop() {
+        this.gameIngState = GameIngState.gamestop;
+    },
+
+    isGameStop: function isGameStop() {
+        return this.gameIngState == GameIngState.gamestop;
+    },
+
+    setGameIng: function setGameIng() {
+        this.gameIngState = GameIngState.gameing;
+    },
+
+    isGameIng: function isGameIng() {
+        return this.gameIngState == GameIngState.gameing;
+    },
+
+    setGameOver: function setGameOver() {
+        this.gameIngState = GameIngState.gameover;
+    },
+
+    isGameOver: function isGameOver() {
+        return this.gameIngState == GameIngState.gameover;
     }
 
 });

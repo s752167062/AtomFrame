@@ -24,7 +24,7 @@ cc.Class({
     onLoad: function onLoad() {
         console.log("-load:" + this.TAG);
     },
-    onDestory: function onDestory() {
+    onDestroy: function onDestroy() {
         console.log("-destory:" + this.TAG);
     },
 
@@ -43,7 +43,12 @@ cc.Class({
     },
     aiBrickType: function aiBrickType() {
         //ai 运算是什么类型  base , empy , trap , buff
-        return "base";
+        var ran = Math.round(Math.random() * 10);
+        console.log(">>>>>>> aiBrickType ran %d", ran);
+        if (ran < 1) {
+            return cc.Atom.gameConfMgr.BRICKS.TRAP; //"trap";
+        }
+        return cc.Atom.gameConfMgr.BRICKS.BASE; //"base";
     },
 
 
@@ -58,7 +63,8 @@ cc.Class({
             //预设对象才处理
             console.log(">>> prefab obj type :" + (typeof node === "undefined" ? "undefined" : _typeof(node)));
             if (node != null) {
-                node.name = "" + (index_tag + i);
+                node.name = item.brickType == cc.Atom.gameConfMgr.BRICKS.BASE ? "brick" : "component_brick"; //"" + (index_tag + i);
+                node.zIndex = 50;
                 //获取预制资源中的js组件，并作出相应操作
                 var brickScript = node.getComponent('BrickDelegate');
                 brickScript.setBrickData(item);
@@ -68,10 +74,93 @@ cc.Class({
             }
         }
         return brickNodeList;
+    },
+
+
+    //地图移动
+    //target 地图层
+    mapUpdate: function mapUpdate(target, dt) {
+        var makeNew = false;
+        var position_max = 0;
+        var move = cc.Atom.gameConfMgr.getInfo("gameUpdateMove") * dt;
+        var player = target.getChildByName("player");
+        if (cc.Atom.gameDataMgr.getData("isPlayerMove") == true) {
+            //移动角色
+            if (player) {
+                player.y = player.y + move;
+
+                var brick = target.getChildByName("brick");
+                var height = brick.height;
+                if (player.y >= height * 3) {
+                    player.y = height * 3 + height / 2;
+                    cc.Atom.gameDataMgr.setData("isPlayerMove", false);
+                }
+            }
+        } else {
+            //移动砖块
+            var bricks = target.getChildren();
+            console.log(">>>> map brick number : %d", bricks.length);
+            for (var i = 0; i < bricks.length; i++) {
+                var item = bricks[i];
+                if (item.name == "brick" || item.name == "component_brick") {
+                    item.y = item.y - move;
+                }
+            }
+
+            for (var m = bricks.length - 1; m >= 0; m--) {
+                var node = bricks[m];
+                if (node.name == "brick" || node.name == "component_brick") {
+                    if (node.y < -node.height / 2) {
+                        //节点出了界面了 删除掉
+                        makeNew = true;
+                        node.removeFromParent();
+                    }
+
+                    if (node.y > position_max) {
+                        position_max = node.y;
+                    }
+                }
+            }
+        }
+
+        //碰撞检测
+        var nbricks = target.getChildren();
+        var px = player.x;
+        var py = player.y;
+        var hitOffset = cc.Atom.gameConfMgr.getInfo("hitOffset"); //碰撞允许的偏移量
+        for (var bi = 0; bi < nbricks.length; bi++) {
+            var item = nbricks[bi];
+            if (item.name == "component_brick") {
+                if (Math.abs(item.x - px) < item.width - hitOffset && Math.abs(item.y - py) < item.height - hitOffset) {
+                    console.log(">>>> player hit");
+                    var script = item.getComponent("BrickDelegate");
+                    var _type = script.getBrickData().brickType;
+                    if (_type == cc.Atom.gameConfMgr.BRICKS.TRAP) {
+                        console.log(">>>> over");
+                        cc.Atom.gameState.setGameOver();
+                        cc.Atom.eventMgr.notify("onGameOver", { _type: _type });
+                    }
+                }
+            }
+        }
+
+        if (makeNew == true) {
+            //补上新的一行节点
+            var nodelist = this.makeBrickNodes();
+            for (var j = 0; j < nodelist.length; j++) {
+                var brick = nodelist[j];
+                if (brick) {
+                    var width = brick.width;
+                    var height = brick.height;
+                    var x = (j + 1 - (nodelist.length + 1) / 2) * width;
+                    var y = position_max + height;
+                    brick.parent = target;
+                    brick.x = x;
+                    brick.y = y;
+                }
+            }
+        }
     }
-
-    //获取下一个阶
-
 });
 
 cc._RF.pop();

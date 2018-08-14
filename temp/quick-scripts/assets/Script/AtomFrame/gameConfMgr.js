@@ -23,9 +23,21 @@ cc.Class({
         //JJGame的游戏配置
         this.infoBuff["gameUpdateInterval"] = 1;
         this.infoBuff["gameSpeed"] = 1;
-        this.infoBuff["maxSteps"] = 100;
+        this.infoBuff["gameUpdateMove"] = 120; //一秒移动60个像素单位
+        this.infoBuff["maxSteps"] = 170;
         this.infoBuff["indexOffset"] = 10;
-        this.infoBuff["brickNum"] = 10;
+        this.infoBuff["brickNum"] = 9; //一开始居中。每行的块数是基数
+        this.infoBuff["hitOffset"] = 12; //碰撞偏移
+        this.infoBuff["turnSpeed"] = 0.2; //变向时间
+
+        //枚举
+        var bricks = cc.Enum({
+            BASE: 100,
+            TRAP: 101,
+            BUFF: 102,
+            WALL: 103
+        });
+        this.BRICKS = bricks;
     },
 
     //初始化存储的数据

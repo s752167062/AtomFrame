@@ -25,7 +25,10 @@
 
 	"JJGameRes":{
 		"brick":{ "_type":"prefab" , "_value":"prefabs/item"},
-		"player_obj":{ "_type":"prefab" , "_value":"prefabs/player_obj"}
+		"player_obj" :{ "_type":"prefab" , "_value":"prefabs/player_obj"},
+		"paruse_ui"  :{ "_type":"prefab" , "_value":"prefabs/game/paruse_ui"},
+		"topStatuBar":{ "_type":"prefab" , "_value":"prefabs/game/topStatuBar"},
+		"storeLayer" :{ "_type":"prefab" , "_value":"prefabs/hall/storeLayer"}
 	}
 
 }

@@ -1,18 +1,8 @@
 "use strict";
-cc._RF.push(module, '4eee41AqbNNAYdNqc5+Pvyk', 'JJGameMain');
-// JJGame/Script/JJGameMain.js
+cc._RF.push(module, '4eee41AqbNNAYdNqc5+Pvyk', 'JJHallMain');
+// JJGame/Script/JJHallMain.js
 
 "use strict";
-
-// Learn cc.Class:
-//  - [Chinese] http://www.cocos.com/docs/creator/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/class/index.html
-// Learn Attribute:
-//  - [Chinese] http://www.cocos.com/docs/creator/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/reference/attributes/index.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://www.cocos.com/docs/creator/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/editors_and_tools/creator-chapters/scripting/life-cycle-callbacks/index.html
 
 cc.Class({
     extends: cc.Component,
@@ -35,15 +25,37 @@ cc.Class({
         // },
     },
 
-    // LIFE-CYCLE CALLBACKS:
-
     onLoad: function onLoad() {
-        //BG Item Z 层级 
-        //player or npc
-        //item and buff
+        var _this = this;
+
+        cc.Atom.eventMgr.listen("onHallMain", function (obj, data) {
+            _this.onHallMain();
+        }, this);
     },
     start: function start() {},
-    update: function update(dt) {}
+    onDestroy: function onDestroy() {
+        cc.Atom.eventMgr.unListenByObj(this);
+    },
+
+
+    // update (dt) {
+
+    // },
+
+    onHallMain: function onHallMain() {},
+
+
+    //按钮事件
+    onBtnStart: function onBtnStart() {
+        console.log(this.desc, " ---- Hall2Game");
+        cc.Atom.gameState.setGameInRoom();
+        cc.director.loadScene("JJGame/Scene/JJGameMain");
+
+        //release hall resource 
+    },
+    onBtnStore: function onBtnStore() {},
+    onBtnAbout: function onBtnAbout() {},
+    onBtnSet: function onBtnSet() {}
 });
 
 cc._RF.pop();
