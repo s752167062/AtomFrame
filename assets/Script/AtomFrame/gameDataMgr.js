@@ -23,8 +23,9 @@ cc.Class({
         this.dataBuff[_key] = _value;
     },
 
-    getData: function (_key) {
-        return this.dataBuff[_key];
+    getData: function (_key , _default) {
+        var _value = this.dataBuff[_key]
+        return _value != null ? _value : _default;
     },
 
 });

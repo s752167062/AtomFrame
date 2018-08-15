@@ -27,6 +27,8 @@
 		"brick":{ "_type":"prefab" , "_value":"prefabs/item"},
 		"player_obj" :{ "_type":"prefab" , "_value":"prefabs/player_obj"},
 		"paruse_ui"  :{ "_type":"prefab" , "_value":"prefabs/game/paruse_ui"},
+		"over_ui"	 :{ "_type":"prefab" , "_value":"prefabs/game/over_ui"},
+		"controltips":{ "_type":"prefab" , "_value":"prefabs/game/controltips"},
 		"topStatuBar":{ "_type":"prefab" , "_value":"prefabs/game/topStatuBar"},
 		"storeLayer" :{ "_type":"prefab" , "_value":"prefabs/hall/storeLayer"}
 	}

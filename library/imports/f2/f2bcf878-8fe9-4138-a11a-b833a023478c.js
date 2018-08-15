@@ -49,14 +49,23 @@ cc.Class({
         this.maxSteps = cc.Atom.gameConfMgr.getInfo("maxSteps"); //最大层数
         this.indexOffset = cc.Atom.gameConfMgr.getInfo("indexOffset"); //阶的偏移index
 
+        cc.Atom.gameDataMgr.setData("mSaveStart", 0);
         //add top bar
         var topbar = cc.Atom.prefabMgr.getPrefabObj("topStatuBar");
-        topbar.parent = this.node;
+        topbar.parent = this.uiLayer;
         this.topbar = topbar;
+        this.topbar_delegate = this.topbar.getComponent("topBarDelegate");
 
         this.addBrick();
         //play ready go
-        cc.Atom.gameState.setGameIng();
+        this.playReadGo();
+        cc.Atom.gameState.setGameStart();
+    },
+    playReadGo: function playReadGo() {
+        var controltips = cc.Atom.prefabMgr.getPrefabObj("controltips");
+        controltips.parent = this.uiLayer;
+        this.controltips = controltips;
+        this.controltips_delegate = this.controltips.getComponent("controltipsDelegate");
     },
     addTouchEvent: function addTouchEvent() {
         var self = this;
@@ -110,6 +119,9 @@ cc.Class({
         if (data) {
             var _type = data._type;
         }
+        var over_ui = cc.Atom.prefabMgr.getPrefabObj("over_ui");
+        over_ui.parent = this.uiLayer;
+        over_ui.zIndex = 150;
     },
     onReStart: function onReStart() {
         cc.Atom.gameState.setGameStop();
@@ -168,6 +180,12 @@ cc.Class({
     update: function update(dt) {
         if (cc.Atom.gameState.isGameIng()) {
             this.mapController.mapUpdate(this.mapLayer, dt);
+            var score = dt * 100;
+            cc.Atom.eventMgr.notify("onAddScore", score);
+
+            this.topbar_delegate.mUpdate(dt);
+        } else if (cc.Atom.gameState.isGameStart()) {
+            this.controltips_delegate.mUpdate(dt);
         }
     }
 });

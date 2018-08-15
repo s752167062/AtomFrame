@@ -23,14 +23,21 @@ cc.Class({
         //JJGame的游戏配置
         this.infoBuff["gameUpdateInterval"] = 1;
         this.infoBuff["gameSpeed"] = 1;
-        this.infoBuff["gameUpdateMove"] = 120; //一秒移动60个像素单位
+        this.infoBuff["gameUpdateMove"] = 240; //一秒移动60个像素单位
+        this.infoBuff["saveStart"] = 5; //安全起步
         this.infoBuff["maxSteps"] = 170;
         this.infoBuff["indexOffset"] = 10;
         this.infoBuff["brickNum"] = 9; //一开始居中。每行的块数是基数
-        this.infoBuff["hitOffset"] = 12; //碰撞偏移
-        this.infoBuff["turnSpeed"] = 0.2; //变向时间
+        this.infoBuff["hitOffset"] = 15; //碰撞偏移
+        this.infoBuff["turnSpeed"] = 0.1; //变向时间
 
+        this.infoBuff["energyDeplete"] = 5; //每秒的消耗
+        this.infoBuff["energyFull"] = 100; //上限
+        this.infoBuff["buffEnergy"] = 50; //油罐多少油
+
+        this.infoBuff["readyCount"] = 2; //准备计时
         //枚举
+        //砖块类型
         var bricks = cc.Enum({
             BASE: 100,
             TRAP: 101,
@@ -38,6 +45,12 @@ cc.Class({
             WALL: 103
         });
         this.BRICKS = bricks;
+
+        var over = cc.Enum({
+            NO_ENERGY: 200,
+            HIT: 201
+        });
+        this.OVER = over;
     },
 
     //初始化存储的数据
@@ -55,8 +68,9 @@ cc.Class({
         this.infoBuff[_key] = _value;
     },
 
-    getInfo: function getInfo(_key) {
-        return this.infoBuff[_key];
+    getInfo: function getInfo(_key, _default) {
+        var _value = this.infoBuff[_key];
+        return _value != null ? _value : _default;
     },
 
     //对数据进行存储

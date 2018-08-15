@@ -41,6 +41,11 @@ cc.Class({
     },
     getGameObjType: function getGameObjType() {
         return this.objType;
+    },
+    onBuff: function onBuff() {
+        this.buffui.active = false;
+        this.trapui.active = false;
+        this.wallui.active = false;
     }
 });
 

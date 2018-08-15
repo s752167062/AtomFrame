@@ -14,10 +14,11 @@ var GameState = {
 
 var GameIngState = {
     default: 0,
-    pause: 1,
-    gameing: 2,
-    gamestop: 3,
-    gameover: 4
+    start: 1,
+    pause: 2,
+    gameing: 3,
+    gamestop: 4,
+    gameover: 5
 };
 
 cc.Class({
@@ -75,6 +76,14 @@ cc.Class({
     },
 
     //游戏中状态
+    setGameStart: function setGameStart() {
+        this.gameIngState = GameIngState.start;
+    },
+
+    isGameStart: function isGameStart() {
+        return this.gameIngState == GameIngState.start;
+    },
+
     setGamePause: function setGamePause() {
         this.gameIngState = GameIngState.pause;
     },

@@ -67,6 +67,14 @@
         "_type": "prefab",
         "_value": "prefabs/game/paruse_ui"
       },
+      "over_ui": {
+        "_type": "prefab",
+        "_value": "prefabs/game/over_ui"
+      },
+      "controltips": {
+        "_type": "prefab",
+        "_value": "prefabs/game/controltips"
+      },
       "topStatuBar": {
         "_type": "prefab",
         "_value": "prefabs/game/topStatuBar"

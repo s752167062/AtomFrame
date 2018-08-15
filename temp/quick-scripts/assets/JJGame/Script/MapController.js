@@ -39,14 +39,20 @@ cc.Class({
             item.brickNum = brickNum; //本阶的砖块数量
             bricList[i] = item;
         }
+        var mSaveStart = cc.Atom.gameDataMgr.getData("mSaveStart");
+        cc.Atom.gameDataMgr.setData("mSaveStart", mSaveStart + 1);
         return bricList;
     },
     aiBrickType: function aiBrickType() {
         //ai 运算是什么类型  base , empy , trap , buff
-        var ran = Math.round(Math.random() * 10);
+        var ran = Math.round(Math.random() * 100);
+        var mSaveStart = cc.Atom.gameDataMgr.getData("mSaveStart");
+        var saveStart = cc.Atom.gameConfMgr.getInfo("saveStart"); //过了安全区才可以创建特殊砖块
         console.log(">>>>>>> aiBrickType ran %d", ran);
-        if (ran < 1) {
+        if (ran < 20 && mSaveStart > saveStart) {
             return cc.Atom.gameConfMgr.BRICKS.TRAP; //"trap";
+        } else if (ran < 22 && mSaveStart > saveStart) {
+            return cc.Atom.gameConfMgr.BRICKS.BUFF; //buff;
         }
         return cc.Atom.gameConfMgr.BRICKS.BASE; //"base";
     },
@@ -139,6 +145,10 @@ cc.Class({
                         console.log(">>>> over");
                         cc.Atom.gameState.setGameOver();
                         cc.Atom.eventMgr.notify("onGameOver", { _type: _type });
+                    } else if (_type == cc.Atom.gameConfMgr.BRICKS.BUFF) {
+                        console.log(">>>> buff");
+                        script.onBuff();
+                        cc.Atom.eventMgr.notify("onBuffEnergy");
                     }
                 }
             }

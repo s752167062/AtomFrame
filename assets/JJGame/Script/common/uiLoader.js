@@ -33,7 +33,7 @@ cc.Class({
             cc.Atom.gameState.setGameInLogo()
         }
 
-        this.press_bar = press_bar;
+        this.press_bar = press_bar.getComponent(cc.ProgressBar);// creator prefab 创建的对象无法直接像绑定脚本那样操作非node内容，需要而外getComponent来获取组件操作
         const self = this;
         logo_bg.active = cc.Atom.gameState.isGameInLogo() //
         game_bg.active = cc.Atom.gameState.isGameInRoom() //
