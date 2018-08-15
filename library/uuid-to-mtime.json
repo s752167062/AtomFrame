@@ -434,91 +434,6 @@
     "meta": 1517471102000,
     "relativePath": "Script/AtomFrame"
   },
-  "511f1246-7b37-4fab-9d7a-3985378ba625": {
-    "asset": 1517819407000,
-    "meta": 1519975411000,
-    "relativePath": "Script/AtomFrame/animateMgr.js"
-  },
-  "1820d166-6612-4a35-a751-e4c7866ab88a": {
-    "asset": 1519975130000,
-    "meta": 1519975411000,
-    "relativePath": "Script/AtomFrame/Atom.js"
-  },
-  "1a21f6da-3a0c-4f5c-a9f0-acb489283627": {
-    "asset": 1517904401000,
-    "meta": 1519975411000,
-    "relativePath": "Script/AtomFrame/audioMgr.js"
-  },
-  "bf3625ab-d692-4edd-beb6-cca6f6b9b532": {
-    "asset": 1517537607000,
-    "meta": 1519975412000,
-    "relativePath": "Script/AtomFrame/effectMgr.js"
-  },
-  "e68be726-095d-44b7-bdda-50f6788e9ed6": {
-    "asset": 1517642524000,
-    "meta": 1519975412000,
-    "relativePath": "Script/AtomFrame/eventMgr.js"
-  },
-  "8eabf2a1-b7b0-4f7c-b4c5-88dd3058e6a9": {
-    "asset": 1517906378000,
-    "meta": 1519975412000,
-    "relativePath": "Script/AtomFrame/gameDataMgr.js"
-  },
-  "5d4b4e24-e730-4797-9299-6d5769a90f04": {
-    "asset": 1517910205000,
-    "meta": 1519975412000,
-    "relativePath": "Script/AtomFrame/hotUpdateMgr.js"
-  },
-  "ec9af8e5-66ad-4f59-b7ad-bf52f3d02e2b": {
-    "asset": 1518055540000,
-    "meta": 1519975412000,
-    "relativePath": "Script/AtomFrame/md5.js"
-  },
-  "5452f85f-48ef-4471-baae-135beef8d8d4": {
-    "asset": 1517538803000,
-    "meta": 1519975412000,
-    "relativePath": "Script/AtomFrame/memoryDetector.js"
-  },
-  "086f3279-3349-4982-9b29-2986ff74ef05": {
-    "asset": 1517554000000,
-    "meta": 1519975412000,
-    "relativePath": "Script/AtomFrame/msgMgr.js"
-  },
-  "08c630a2-2362-4b48-93d8-28b84543fc94": {
-    "asset": 1517888940000,
-    "meta": 1517888940000,
-    "relativePath": "Script/AtomFrame/ProtoBuf"
-  },
-  "229408b6-4b41-4df4-8247-35b49882bc91": {
-    "asset": 1517882750000,
-    "meta": 1519975413000,
-    "relativePath": "Script/AtomFrame/ProtoBuf/bytebuffer.js"
-  },
-  "e768c28f-2f74-4097-abc8-d4ee8041134f": {
-    "asset": 1517882748000,
-    "meta": 1519975414000,
-    "relativePath": "Script/AtomFrame/ProtoBuf/long.js"
-  },
-  "4ff5302c-42e4-4ba0-b0c1-832e0a9469b5": {
-    "asset": 1517882752000,
-    "meta": 1519975414000,
-    "relativePath": "Script/AtomFrame/ProtoBuf/protobuf.js"
-  },
-  "ab8cf937-6d87-4b01-b59f-7a5ebfe96033": {
-    "asset": 1517905369000,
-    "meta": 1519975414000,
-    "relativePath": "Script/AtomFrame/socketMgr.js"
-  },
-  "84c5ee6f-59a6-422f-8a29-acd9db32362e": {
-    "asset": 1517823251000,
-    "meta": 1519975414000,
-    "relativePath": "Script/AtomFrame/spriteMgr.js"
-  },
-  "69c4c62f-f8d0-47e5-9628-c469199105be": {
-    "asset": 1517537685000,
-    "meta": 1519975415000,
-    "relativePath": "Script/AtomFrame/UIMgr.js"
-  },
   "571cd4ac-7d77-4492-8cab-7d98c0c95676": {
     "asset": 1517796584000,
     "meta": 1519975415000,
@@ -544,31 +459,6 @@
     "meta": 1534145729000,
     "relativePath": "Texture/HelloWorld.png"
   },
-  "280c3aec-6492-4a9d-9f51-a9b00b570b4a": {
-    "asset": 1529045058000,
-    "meta": 1529045062000,
-    "relativePath": "Script/HelloWorld.js"
-  },
-  "07d22571-d9bf-4c6e-89ae-8a454c517faa": {
-    "asset": 1529045787000,
-    "meta": 1529046853000,
-    "relativePath": "Script/AtomFrame/gameNetMgr.js"
-  },
-  "beca2898-636f-48e8-9a19-eb542626e1ca": {
-    "asset": 1529050976000,
-    "meta": 1529051472000,
-    "relativePath": "Script/AtomFrame/comFunMgr.js"
-  },
-  "7fa1f6de-c25d-4cc3-8632-50183a031ddc": {
-    "asset": 1529050925000,
-    "meta": 1529051472000,
-    "relativePath": "Script/AtomFrame/fileMgr.js"
-  },
-  "4e1143ac-bb52-40a9-86f4-e2a79a69f173": {
-    "asset": 1529388964000,
-    "meta": 1532593126000,
-    "relativePath": "Script/AtomFrame/platformMgr.js"
-  },
   "f452261a-238a-4170-b38f-ad8a1071aaf0": {
     "asset": 1534124544000,
     "meta": 1533866780000,
@@ -585,7 +475,7 @@
     "relativePath": "resources/JJGameRes"
   },
   "2a670e77-c939-42d2-8f5b-89d22fbdf8ac": {
-    "asset": 1534235148000,
+    "asset": 1534296947000,
     "meta": 1533866932000,
     "relativePath": "JJGame/Script"
   },
@@ -603,31 +493,6 @@
     "asset": 1534230741000,
     "meta": 1534230741000,
     "relativePath": "resources/JJGameRes/prefabs/item.prefab"
-  },
-  "3e30aa12-2827-4cbb-ae2e-77d25f167b62": {
-    "asset": 1517888974000,
-    "meta": 1534123871000,
-    "relativePath": "Script/AtomFrame/Socket"
-  },
-  "940ed0e6-a694-45f7-93e3-0768674e808d": {
-    "asset": 1518057312000,
-    "meta": 1534123871000,
-    "relativePath": "Script/AtomFrame/Thread3"
-  },
-  "a426b14a-d7f0-4d6f-b2c4-abb6da3403ee": {
-    "asset": 1533894942000,
-    "meta": 1534123878000,
-    "relativePath": "Script/AtomFrame/timerMgr.js"
-  },
-  "c6356ba5-a4c4-447e-84d9-ae9550380537": {
-    "asset": 1533894942000,
-    "meta": 1533894942000,
-    "relativePath": "Script/AtomFrame/ScriptBase"
-  },
-  "1adf37d4-b47b-431b-a32e-586abd0db71d": {
-    "asset": 1533894942000,
-    "meta": 1534123878000,
-    "relativePath": "Script/AtomFrame/ScriptBase/BonesBase.js"
   },
   "edd215b9-2796-4a05-aaf5-81f96c9281ce": {
     "asset": 1533696081000,
@@ -659,25 +524,10 @@
     "meta": 1534210951000,
     "relativePath": "resources/JJGameRes/prefabs/uiLoader.prefab"
   },
-  "5329f39e-f9d0-479e-8b4b-66cf5f2b071d": {
-    "asset": 1534211979000,
-    "meta": 1534212365000,
-    "relativePath": "Script/AtomFrame/prefabMgr.js"
-  },
-  "c558b81f-ae2d-423a-bf72-297fa65058e9": {
-    "asset": 1534211990000,
-    "meta": 1534212365000,
-    "relativePath": "Script/AtomFrame/resMgr.js"
-  },
   "82e9f67a-3afc-4342-bbff-fe0f1f8e41b4": {
     "asset": 1534233045000,
     "meta": 1534233045000,
     "relativePath": "JJGame/Scene/JJHallMain.fire"
-  },
-  "fc6065ef-11cb-493c-84f4-81c3f171461b": {
-    "asset": 1534213829000,
-    "meta": 1534213980000,
-    "relativePath": "Script/AtomFrame/gameState.js"
   },
   "842f6b1f-ce6b-4720-b428-bcba40f02a68": {
     "asset": 1534216393000,
@@ -688,11 +538,6 @@
     "asset": 1534242218000,
     "meta": 1534242218000,
     "relativePath": "JJGame/Scene/JJLogo.fire"
-  },
-  "b3d3f516-445b-4312-9699-2e952f11543c": {
-    "asset": 1534232615000,
-    "meta": 1534232622000,
-    "relativePath": "JJGame/Script/common/uiLoader.js"
   },
   "8e9857ce-601b-48aa-ad5a-a3527e940f1e": {
     "asset": 1534233012000,
@@ -705,7 +550,7 @@
     "relativePath": "resources/JJGameRes/prefabs/hall/storeLayer.prefab"
   },
   "b788a3cf-3f14-4db0-82e4-4e1f6b8f29b2": {
-    "asset": 1534239115000,
+    "asset": 1534242072000,
     "meta": 1534233039000,
     "relativePath": "resources/JJGameRes/prefabs/game"
   },
@@ -723,11 +568,6 @@
     "asset": 1534241950000,
     "meta": 1534241950000,
     "relativePath": "resources/JJGameRes/prefabs/game/paruse_ui.prefab"
-  },
-  "e0f4f90f-a137-45ce-9667-e368800d71d1": {
-    "asset": 1534241672000,
-    "meta": 1534241707000,
-    "relativePath": "Script/AtomFrame/gameConfMgr.js"
   },
   "258b7f1f-6d9b-4182-91f4-f82661206581": {
     "asset": 1534242072000,
@@ -768,5 +608,165 @@
     "asset": 1534242673000,
     "meta": 1534242680000,
     "relativePath": "JJGame/Script/MapController.js"
+  },
+  "280c3aec-6492-4a9d-9f51-a9b00b570b4a": {
+    "asset": 1534298504000,
+    "meta": 1534298507000,
+    "relativePath": "Script/HelloWorld.js"
+  },
+  "511f1246-7b37-4fab-9d7a-3985378ba625": {
+    "asset": 1517819407000,
+    "meta": 1534298652000,
+    "relativePath": "Script/AtomFrame/animateMgr.js"
+  },
+  "1a21f6da-3a0c-4f5c-a9f0-acb489283627": {
+    "asset": 1517904401000,
+    "meta": 1534298652000,
+    "relativePath": "Script/AtomFrame/audioMgr.js"
+  },
+  "beca2898-636f-48e8-9a19-eb542626e1ca": {
+    "asset": 1529050976000,
+    "meta": 1534298652000,
+    "relativePath": "Script/AtomFrame/comFunMgr.js"
+  },
+  "bf3625ab-d692-4edd-beb6-cca6f6b9b532": {
+    "asset": 1517537607000,
+    "meta": 1534298652000,
+    "relativePath": "Script/AtomFrame/effectMgr.js"
+  },
+  "e68be726-095d-44b7-bdda-50f6788e9ed6": {
+    "asset": 1517642524000,
+    "meta": 1534298652000,
+    "relativePath": "Script/AtomFrame/eventMgr.js"
+  },
+  "7fa1f6de-c25d-4cc3-8632-50183a031ddc": {
+    "asset": 1529050925000,
+    "meta": 1534298653000,
+    "relativePath": "Script/AtomFrame/fileMgr.js"
+  },
+  "e0f4f90f-a137-45ce-9667-e368800d71d1": {
+    "asset": 1534241672000,
+    "meta": 1534298653000,
+    "relativePath": "Script/AtomFrame/gameConfMgr.js"
+  },
+  "8eabf2a1-b7b0-4f7c-b4c5-88dd3058e6a9": {
+    "asset": 1517906378000,
+    "meta": 1534298653000,
+    "relativePath": "Script/AtomFrame/gameDataMgr.js"
+  },
+  "07d22571-d9bf-4c6e-89ae-8a454c517faa": {
+    "asset": 1529045787000,
+    "meta": 1534298653000,
+    "relativePath": "Script/AtomFrame/gameNetMgr.js"
+  },
+  "fc6065ef-11cb-493c-84f4-81c3f171461b": {
+    "asset": 1534213829000,
+    "meta": 1534298653000,
+    "relativePath": "Script/AtomFrame/gameState.js"
+  },
+  "5d4b4e24-e730-4797-9299-6d5769a90f04": {
+    "asset": 1517910205000,
+    "meta": 1534298653000,
+    "relativePath": "Script/AtomFrame/hotUpdateMgr.js"
+  },
+  "5452f85f-48ef-4471-baae-135beef8d8d4": {
+    "asset": 1517538803000,
+    "meta": 1534298653000,
+    "relativePath": "Script/AtomFrame/memoryDetector.js"
+  },
+  "086f3279-3349-4982-9b29-2986ff74ef05": {
+    "asset": 1517554000000,
+    "meta": 1534298653000,
+    "relativePath": "Script/AtomFrame/msgMgr.js"
+  },
+  "4e1143ac-bb52-40a9-86f4-e2a79a69f173": {
+    "asset": 1529388964000,
+    "meta": 1534298653000,
+    "relativePath": "Script/AtomFrame/platformMgr.js"
+  },
+  "08c630a2-2362-4b48-93d8-28b84543fc94": {
+    "asset": 1517888940000,
+    "meta": 1517888940000,
+    "relativePath": "Script/AtomFrame/ProtoBuf"
+  },
+  "5329f39e-f9d0-479e-8b4b-66cf5f2b071d": {
+    "asset": 1534211979000,
+    "meta": 1534298654000,
+    "relativePath": "Script/AtomFrame/prefabMgr.js"
+  },
+  "229408b6-4b41-4df4-8247-35b49882bc91": {
+    "asset": 1517882750000,
+    "meta": 1534298655000,
+    "relativePath": "Script/AtomFrame/ProtoBuf/bytebuffer.js"
+  },
+  "e768c28f-2f74-4097-abc8-d4ee8041134f": {
+    "asset": 1517882748000,
+    "meta": 1534298656000,
+    "relativePath": "Script/AtomFrame/ProtoBuf/long.js"
+  },
+  "4ff5302c-42e4-4ba0-b0c1-832e0a9469b5": {
+    "asset": 1517882752000,
+    "meta": 1534298656000,
+    "relativePath": "Script/AtomFrame/ProtoBuf/protobuf.js"
+  },
+  "c558b81f-ae2d-423a-bf72-297fa65058e9": {
+    "asset": 1534211990000,
+    "meta": 1534298656000,
+    "relativePath": "Script/AtomFrame/resMgr.js"
+  },
+  "c6356ba5-a4c4-447e-84d9-ae9550380537": {
+    "asset": 1533894942000,
+    "meta": 1533894942000,
+    "relativePath": "Script/AtomFrame/ScriptBase"
+  },
+  "3e30aa12-2827-4cbb-ae2e-77d25f167b62": {
+    "asset": 1517888974000,
+    "meta": 1534123871000,
+    "relativePath": "Script/AtomFrame/Socket"
+  },
+  "1adf37d4-b47b-431b-a32e-586abd0db71d": {
+    "asset": 1533894942000,
+    "meta": 1534298656000,
+    "relativePath": "Script/AtomFrame/ScriptBase/BonesBase.js"
+  },
+  "ab8cf937-6d87-4b01-b59f-7a5ebfe96033": {
+    "asset": 1517905369000,
+    "meta": 1534298656000,
+    "relativePath": "Script/AtomFrame/socketMgr.js"
+  },
+  "84c5ee6f-59a6-422f-8a29-acd9db32362e": {
+    "asset": 1517823251000,
+    "meta": 1534298656000,
+    "relativePath": "Script/AtomFrame/spriteMgr.js"
+  },
+  "940ed0e6-a694-45f7-93e3-0768674e808d": {
+    "asset": 1518057312000,
+    "meta": 1534123871000,
+    "relativePath": "Script/AtomFrame/Thread3"
+  },
+  "a426b14a-d7f0-4d6f-b2c4-abb6da3403ee": {
+    "asset": 1533894942000,
+    "meta": 1534298656000,
+    "relativePath": "Script/AtomFrame/timerMgr.js"
+  },
+  "69c4c62f-f8d0-47e5-9628-c469199105be": {
+    "asset": 1517537685000,
+    "meta": 1534298656000,
+    "relativePath": "Script/AtomFrame/UIMgr.js"
+  },
+  "b3d3f516-445b-4312-9699-2e952f11543c": {
+    "asset": 1534298842000,
+    "meta": 1534298925000,
+    "relativePath": "JJGame/Script/common/uiLoader.js"
+  },
+  "ec9af8e5-66ad-4f59-b7ad-bf52f3d02e2b": {
+    "asset": 1534299898000,
+    "meta": 1534299906000,
+    "relativePath": "Script/AtomFrame/md5.js"
+  },
+  "1820d166-6612-4a35-a751-e4c7866ab88a": {
+    "asset": 1534301727000,
+    "meta": 1534301729000,
+    "relativePath": "Script/AtomFrame/Atom.js"
   }
 }

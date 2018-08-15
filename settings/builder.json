@@ -3,6 +3,7 @@
   "appSecret": "",
   "encryptJs": true,
   "excludeScenes": [],
+  "fb-instant-games": {},
   "includeAnySDK": false,
   "includeSDKBox": false,
   "inlineSpriteFrames": true,
@@ -20,10 +21,13 @@
   },
   "packageName": "org.cocos2d.helloworld",
   "privateKey": "",
-  "renderMode": "0",
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "title": "hello_world",
-  "webOrientation": "landscape",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "startScene": "f0d57fda-ba8e-4c5b-8095-93b33025f4b1",
+  "title": "JJGame",
+  "webOrientation": "portrait",
   "wechatgame": {
     "appid": "wx908273daa83d469c",
     "orientation": "landscape"

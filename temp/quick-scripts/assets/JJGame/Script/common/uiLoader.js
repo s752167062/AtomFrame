@@ -5,7 +5,10 @@ cc._RF.push(module, 'b3d3fUWRFtDEpaZLpUvEVQ8', 'uiLoader', __filename);
 "use strict";
 
 //加载页面
-
+/*
+    关于require 的相关说明参考    http://docs.cocos.com/creator/manual/zh/scripting/modular-script.html
+                                https://github.com/czlbaiyi/zergnest_client_creator
+*/
 cc.Class({
     extends: cc.Component,
 
@@ -30,7 +33,7 @@ cc.Class({
         if (cc.Atom == null) {
             //创建 Atom引擎
             console.log(">>> 创建 Atom引擎");
-            var atom = require("AtomFrame/Atom");
+            var atom = require("Atom");
             atom.createAtom();
 
             //初始logo状态

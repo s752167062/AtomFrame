@@ -19,7 +19,7 @@ cc.Class({
     onLoad: function () {
         this.label.string = this.text;
 
-        const atom = require("AtomFrame/Atom");
+        const atom = require("Atom");
         atom.createAtom();
 
         //演示全局数据 gameConfMgr 配置的是游戏基础配置。 要添加存储、修改游戏业务运行是的数据用gameDataMgr

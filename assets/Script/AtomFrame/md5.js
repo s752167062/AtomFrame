@@ -1,5 +1,13 @@
-var crypto = require("crypto")
-var fs = require("fs")
+/**
+    cocos creator 中自带的fs模块为 c++ node.js 
+*/
+
+var crypto = require("crypto");
+var fs;
+if(cc.sys.os == cc.sys.OS_ANDROID || cc.sys.os == cc.sys.OS_IOS){
+    fs = require("fs")
+}
+
 cc.Class({
     extends: cc.Component,
 
@@ -24,10 +32,13 @@ cc.Class({
      * 文件的MD5
      */
     md5File: function (path) {
-        if(!fs.statSync(path).isFile()){
-            return null;
+        if(cc.sys.os == cc.sys.OS_ANDROID || cc.sys.os == cc.sys.OS_IOS){
+            if(!fs.statSync(path).isFile()){
+                return null;
+            }
+            return this.md5.update(fs.readFileSync(path , "utf-8")).digest("hex");
         }
-        return this.md5.update(fs.readFileSync(path , "utf-8")).digest("hex");
+        return null;
     },
 
     /**

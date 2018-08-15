@@ -1,5 +1,8 @@
 //加载页面
-
+/*
+    关于require 的相关说明参考    http://docs.cocos.com/creator/manual/zh/scripting/modular-script.html
+                                https://github.com/czlbaiyi/zergnest_client_creator
+*/
 cc.Class({
     extends: cc.Component,
 
@@ -23,7 +26,7 @@ cc.Class({
         if(cc.Atom == null){
             //创建 Atom引擎
             console.log(">>> 创建 Atom引擎")
-            const atom = require("AtomFrame/Atom");
+            const atom = require("Atom");
             atom.createAtom();
 
             //初始logo状态
