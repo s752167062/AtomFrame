@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Image 915",
+    "texture": "02db427f-baca-49a6-acea-29a289e43913",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      57,
+      68
+    ],
+    "offset": [
+      -6,
+      0.5
+    ],
+    "originalSize": [
+      69,
+      71
+    ]
+  }
+}

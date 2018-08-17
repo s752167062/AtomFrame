@@ -44,6 +44,7 @@ cc.Class({
     },
     onStartGame: function onStartGame() {
         console.log(">>>> onStartGame ");
+        this.minterval = 0;
         this.gameUpdateInterval = cc.Atom.gameConfMgr.getInfo("gameUpdateInterval");
         this.gameSpeed = cc.Atom.gameConfMgr.getInfo("gameSpeed"); //节奏提速
         this.maxSteps = cc.Atom.gameConfMgr.getInfo("maxSteps"); //最大层数
@@ -179,11 +180,17 @@ cc.Class({
     },
     update: function update(dt) {
         if (cc.Atom.gameState.isGameIng()) {
-            this.mapController.mapUpdate(this.mapLayer, dt);
-            var score = dt * 100;
-            cc.Atom.eventMgr.notify("onAddScore", score);
+            this.minterval += dt;
+            if (this.minterval >= cc.Atom.gameConfMgr.getInfo("jumpInterval")) {
+                console.log(">>>> update position >>> ");
+                this.minterval = 0;
+                this.mapController.mapUpdate(this.mapLayer, dt);
 
-            this.topbar_delegate.mUpdate(dt);
+                var score = dt * 1000;
+                cc.Atom.eventMgr.notify("onAddScore", score);
+                // this.topbar_delegate.mUpdate(dt);
+            }
+            this.mapController.hitCheck(this.mapLayer);
         } else if (cc.Atom.gameState.isGameStart()) {
             this.controltips_delegate.mUpdate(dt);
         }

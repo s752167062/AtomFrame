@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Image 90",
+    "texture": "53bb1d4f-1dae-4ac1-909a-ce5abe696e2e",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      70,
+      70
+    ],
+    "offset": [
+      -4,
+      0
+    ],
+    "originalSize": [
+      78,
+      74
+    ]
+  }
+}

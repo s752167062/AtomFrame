@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Image 846",
+    "texture": "c29d151c-8ea1-49c1-9d94-738a4328eded",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      61,
+      72
+    ],
+    "offset": [
+      -11.5,
+      0
+    ],
+    "originalSize": [
+      84,
+      72
+    ]
+  }
+}

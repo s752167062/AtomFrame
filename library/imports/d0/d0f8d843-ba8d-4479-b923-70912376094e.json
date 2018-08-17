@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Image 623",
+    "texture": "ca573ec6-c74a-47e7-a3be-2a0aa5401cf6",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      78,
+      82
+    ],
+    "offset": [
+      -42,
+      -0.5
+    ],
+    "originalSize": [
+      162,
+      85
+    ]
+  }
+}

@@ -30,7 +30,9 @@
 		"over_ui"	 :{ "_type":"prefab" , "_value":"prefabs/game/over_ui"},
 		"controltips":{ "_type":"prefab" , "_value":"prefabs/game/controltips"},
 		"topStatuBar":{ "_type":"prefab" , "_value":"prefabs/game/topStatuBar"},
-		"storeLayer" :{ "_type":"prefab" , "_value":"prefabs/hall/storeLayer"}
+		"storeLayer" :{ "_type":"prefab" , "_value":"prefabs/hall/storeLayer"},
+
+		"buffAni" :{ "_type":"sni" , "_value":"ani/buffAni"}
 	}
 
 }

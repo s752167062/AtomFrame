@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Image 904",
+    "texture": "85671985-1047-4a18-812f-24f53c69cf9c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      72,
+      84
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      74,
+      85
+    ]
+  }
+}

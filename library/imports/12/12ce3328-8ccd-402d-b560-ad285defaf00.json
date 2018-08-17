@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_continue",
+    "texture": "e062bce3-4735-45f7-9dfb-d6f631bb0553",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      540,
+      118
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      540,
+      118
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Image 403",
+    "texture": "9c9c4cfb-1ed8-4ba2-9134-90b1786f4856",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      34,
+      34
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      34,
+      37
+    ]
+  }
+}

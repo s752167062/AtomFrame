@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Image 808",
+    "texture": "0e148746-12d2-4f20-8051-959fb19f6627",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      162,
+      188
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      162,
+      188
+    ]
+  }
+}

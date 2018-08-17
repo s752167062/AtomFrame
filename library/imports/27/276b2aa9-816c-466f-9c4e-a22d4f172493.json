@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Image 906",
+    "texture": "eb6dd860-fe06-473d-a165-7a10ef8ffd7e",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      74,
+      72
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      74,
+      76
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Image 741",
+    "texture": "5c71cc33-d200-4304-a547-815bd1cb23ab",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      85,
+      83
+    ],
+    "offset": [
+      -38.5,
+      0.5
+    ],
+    "originalSize": [
+      162,
+      88
+    ]
+  }
+}

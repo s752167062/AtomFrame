@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Image 401",
+    "texture": "3f67b78a-f218-48ff-852c-8a10988765b4",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      31,
+      34
+    ],
+    "offset": [
+      -1.5,
+      -1
+    ],
+    "originalSize": [
+      34,
+      38
+    ]
+  }
+}

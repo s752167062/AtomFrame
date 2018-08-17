@@ -31,6 +31,10 @@ cc.Class({
         this.infoBuff["buffEnergy"] = 50;  //油罐多少油
 
         this.infoBuff["readyCount"] = 2; //准备计时
+
+        this.infoBuff["jumpTime"] = 0.2
+        this.infoBuff["jumpFixTime"] = 0.1 
+        this.infoBuff["jumpInterval"]  = 0.4
         //枚举
         //砖块类型
         const bricks = cc.Enum({

@@ -85,26 +85,31 @@ cc.Class({
         if(cc.Atom.gameDataMgr.getData("isPlayerMove") == true){
             //移动角色
             if(player){
-                player.y = player.y + move
+                // player.y = player.y + move
 
+                // var brick  = target.getChildByName("brick")
+                // var height = brick.height 
+                // if(player.y >= height * 3 ){
+                //     player.y = height * 3 + height/2
+                //     cc.Atom.gameDataMgr.setData("isPlayerMove", false)
+                // }
+
+                //跳一个位置
                 var brick  = target.getChildByName("brick")
-                var height = brick.height 
-                if(player.y >= height * 3 ){
-                    player.y = height * 3 + height/2
+                // var moveto = cc.moveTo(cc.Atom.gameConfMgr.getInfo("jumpTime") , cc.p(player.x , player.y + brick.height))
+                // moveto.easing(cc.easeInOut(cc.Atom.gameConfMgr.getInfo("jumpTime")));
+                var jump = cc.jumpTo(cc.Atom.gameConfMgr.getInfo("jumpTime"), cc.p(player.x , player.y + brick.height) ,brick.height/3,1)
+                var callfun= cc.callFunc(function(){
+                    console.log("function callback！！");
                     cc.Atom.gameDataMgr.setData("isPlayerMove", false)
-                }
-            }
+                }.bind(this));
+
+                var seqA = cc.sequence([jump ,callfun]);
+                player.runAction(seqA);
+            }   
         }else{
-            //移动砖块
+            //先检查是否有要删除的
             var bricks = target.getChildren();
-            console.log(">>>> map brick number : %d" , bricks.length)
-            for (var i = 0; i < bricks.length; i++) {
-                var item = bricks[i];
-                if(item.name == "brick" || item.name == "component_brick"){
-                    item.y = item.y - move;
-                }
-            }
-        
             for (var m = bricks.length -1; m >=0 ; m--){
                 var node = bricks[m];
                 if(node.name == "brick" || node.name == "component_brick"){
@@ -118,11 +123,49 @@ cc.Class({
                     }
                 }
             }
+
+            if (makeNew == true) {
+                //补上新的一行节点
+                var nodelist = this.makeBrickNodes();
+                for (var j = 0; j < nodelist.length; j++) {
+                    var brick = nodelist[j];
+                    if(brick){
+                        var width  = brick.width;
+                        var height = brick.height;
+                        var x = (j+1 - ( nodelist.length +1) /2) * width ;
+                        var y = position_max + height;
+                        brick.parent = target;
+                        brick.x = x;
+                        brick.y = y;
+                    }
+                }
+            }
+
+            //移动砖块
+            bricks = target.getChildren();
+            console.log(">>>> map brick number : %d" , bricks.length)
+            for (var i = 0; i < bricks.length; i++) {
+                var item = bricks[i];
+                // if(item.name == "brick" || item.name == "component_brick"){
+                //     item.y = item.y - move;
+                // }
+
+                var moveto = cc.moveTo(cc.Atom.gameConfMgr.getInfo("jumpFixTime") , cc.p(item.x , item.y - item.height))
+                moveto.easing(cc.easeInOut(cc.Atom.gameConfMgr.getInfo("jumpFixTime")));
+                var callfun= cc.callFunc(function(){
+                                    console.log("function callback！！"); 
+                                    cc.Atom.gameDataMgr.setData("isPlayerMove", true)
+                                }.bind(this));
+
+                var seqB = cc.sequence([moveto ,callfun]);
+                item.runAction(seqB)
+            }
         }
+    },
 
-        
-
+    hitCheck(target){
         //碰撞检测
+        var player = target.getChildByName("player")
         var nbricks = target.getChildren();
         var px = player.x
         var py = player.y
@@ -143,23 +186,6 @@ cc.Class({
                         script.onBuff()
                         cc.Atom.eventMgr.notify("onBuffEnergy")
                     }
-                }
-            }
-        }
-
-        if (makeNew == true) {
-            //补上新的一行节点
-            var nodelist = this.makeBrickNodes();
-            for (var j = 0; j < nodelist.length; j++) {
-                var brick = nodelist[j];
-                if(brick){
-                    var width  = brick.width;
-                    var height = brick.height;
-                    var x = (j+1 - ( nodelist.length +1) /2) * width ;
-                    var y = position_max + height;
-                    brick.parent = target;
-                    brick.x = x;
-                    brick.y = y;
                 }
             }
         }

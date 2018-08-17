@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Image 925",
+    "texture": "a1e4ee46-1684-4702-b5cb-d4e4e60b474a",
+    "atlas": "",
+    "rect": [
+      0,
+      3,
+      68,
+      56
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      69,
+      61
+    ]
+  }
+}

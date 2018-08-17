@@ -43,12 +43,13 @@ cc.Class({
         this.aniBuff[key] = null;
     },
 
-    playAni: function playAni(target, key) {
+    playAni: function playAni(target, key, isloop) {
         if (target == null || key == null) {
             console.log(" ------ 播放动画对象不能为空");
             return;
         }
         var clip = this.aniBuff[key];
+        clip.wrapMode = isloop ? cc.WrapMode.Loop : cc.WrapMode.Default;
         if (clip == null || !clip instanceof cc.AnimationClip) {
             console.log(" ------ Clip异常", key);
             return;

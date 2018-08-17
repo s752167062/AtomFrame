@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Image 338",
+    "texture": "1286b942-852d-4480-af17-113efd025041",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      58,
+      70
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      59,
+      71
+    ]
+  }
+}
