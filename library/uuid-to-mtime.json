@@ -470,7 +470,7 @@
     "relativePath": "JJGame/Scene"
   },
   "0769591e-0865-42da-92d0-f71194ba3018": {
-    "asset": 1534473633000,
+    "asset": 1534486555000,
     "meta": 1533866913000,
     "relativePath": "resources/JJGameRes"
   },
@@ -2905,7 +2905,7 @@
     "relativePath": "JJGame/Script/common/uiLoader.js"
   },
   "bc23c589-8299-4b40-8ae9-fb63c4f316a3": {
-    "asset": 1534486553000,
+    "asset": 1534486568000,
     "meta": 1534486553000,
     "relativePath": "resources/JJGameRes/ani"
   },
