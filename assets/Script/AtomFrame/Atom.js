@@ -8,6 +8,10 @@ const Atom = {
         var timerMgr = require("timerMgr");
         cc.Atom.timerMgr = new timerMgr();
 
+        //游戏数据 gameData
+        var gameDataMgr = require("gameDataMgr");
+        cc.Atom.gameDataMgr = new gameDataMgr();
+
         // md5 
         // var md5 = require("md5");
         // cc.Atom.md5 = new md5();
@@ -19,6 +23,10 @@ const Atom = {
         //游戏配置单例
         var gameConfMgr = require("gameConfMgr");
         cc.Atom.gameConfMgr = new gameConfMgr();
+
+        //枚举
+        var enumMgr = require("enumMgr");
+        cc.enums = new enumMgr();
 
         //事件管理器 event
         var eventMgr = require("eventMgr");
@@ -64,9 +72,7 @@ const Atom = {
         var comFunMgr = require("comFunMgr");
         cc.Atom.comFunMgr = new comFunMgr();
 
-        //游戏数据 gameData
-        var gameDataMgr = require("gameDataMgr");
-        cc.Atom.gameDataMgr = new gameDataMgr();
+
 
         //平台接口管理 platform
         // var platformMgr = require("AtomFrame/platformMgr");
@@ -128,4 +134,5 @@ module.exports = Atom;
 
     24.内存管理
     25.调试器 --在 编辑器中运行或者以 Development 方式发布运行时，将出现调试器窗口，便于查看运行时日志、调试信息等。还可以方便地将自己的功能注册到调试器窗口上并使用 （支持运行系统指令类似饥荒）
+    26.日子系统
 */

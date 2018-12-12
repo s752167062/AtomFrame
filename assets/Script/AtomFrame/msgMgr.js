@@ -12,6 +12,8 @@ cc.Class({
         console.log("-new:" + this.TAG);
         this.msgBuff = {}
         this.msgBuff[""] = "";
+
+        this.loadMsgFile();
     },
 
     onLoad: function () {
@@ -45,5 +47,23 @@ cc.Class({
     //隐藏等待提示框
     hidLoading: function () {
         
+    },
+
+    //加载所有的文本内容
+    loadMsgFile: function(){
+        var url = cc.url.raw("resources/Message.json");
+        cc.loader.loadRes("Message", (err, data)=>{
+            if (err) {
+                cc.error(err.message || err);
+                return;
+            }
+            //这里需要有个回调判断资源表是否解析完成
+            console.log(">>>> Message data :" + JSON.stringify(data))
+            for(key in data){
+                if(data[key]){
+                    this.msgBuff[key] = data[key];
+                }   
+            }
+        });
     },
 });
